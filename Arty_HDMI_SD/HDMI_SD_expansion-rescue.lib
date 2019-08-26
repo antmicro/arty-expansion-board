@@ -1,0 +1,64 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# C_1u_0805-antmicro_Capacitors
+#
+DEF ~C_1u_0805-antmicro_Capacitors C 0 0 Y Y 1 F N
+F0 "C" -55 135 60 H V L CNN
+F1 "C_1u_0805-antmicro_Capacitors" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0805" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "WALSIN" 200 400 60 H I L CNN "Manufacturer"
+F5 "0805B105K160CT" 200 300 60 H I L CNN "MPN"
+F6 "1u" 0 -100 50 H V C CNN "Val"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 0 0 1 1 P
+X ~ 2 0 -150 110 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_10k_0603-antmicro_Resistors
+#
+DEF ~R_10k_0603-antmicro_Resistors R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "R_10k_0603-antmicro_Resistors" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0603" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "BOURNS" 200 400 60 H I L CNN "Manufacturer"
+F5 "CR0603-JW-103ELF" 200 300 60 H I L CNN "MPN"
+F6 "10k" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SD_card_slot-antmicro_Memory_Connectors_PC_Card_Sockets
+#
+DEF SD_card_slot-antmicro_Memory_Connectors_PC_Card_Sockets J 0 40 Y Y 1 F N
+F0 "J" -350 600 50 H V C CNN
+F1 "SD_card_slot-antmicro_Memory_Connectors_PC_Card_Sockets" -200 -600 50 H V C CNN
+F2 "" -350 0 50 H I C CNN
+F3 "" -350 0 50 H I C CNN
+F4 "1140084168" 0 650 50 H V C CNN "MPN"
+F5 "Amphenol" -50 750 50 H V C CNN "Manufacturer"
+DRAW
+T 900 200 50 50 0 1 0 "SD CARD" Normal 0 C C
+P 7 0 1 0 -400 550 -400 -550 250 -550 250 -350 450 -150 450 550 -400 550 f
+X DAT2 1 -500 450 100 R 50 50 1 1 I
+X CD2 10 -500 -450 100 R 50 50 1 1 I
+X CD/DAT3 2 -500 350 100 R 50 50 1 1 I
+X CMD 3 -500 250 100 R 50 50 1 1 I
+X VDD 4 -500 150 100 R 50 50 1 1 I
+X CLK 5 -500 50 100 R 50 50 1 1 I
+X VSS 6 -500 -50 100 R 50 50 1 1 I
+X DAT0 7 -500 -150 100 R 50 50 1 1 I
+X DAT1 8 -500 -250 100 R 50 50 1 1 I
+X CD1 9 -500 -350 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

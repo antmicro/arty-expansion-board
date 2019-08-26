@@ -1,0 +1,645 @@
+EESchema Schematic File Version 4
+LIBS:HDMI_SD_expansion-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:HDMI_A J4
+U 1 1 5D606A53
+P 8650 3950
+F 0 "J4" H 9079 3996 50  0000 L CNN
+F 1 "HDMI_A" H 9079 3905 50  0000 L CNN
+F 2 "antmicro-footprints:HDMI_A_Female_2000-1-2-41-00-BK" H 8675 3950 50  0001 C CNN
+F 3 "https://en.wikipedia.org/wiki/HDMI" H 8675 3950 50  0001 C CNN
+	1    8650 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 3150 7700 3150
+Wire Wire Line
+	8250 3250 7700 3250
+Wire Wire Line
+	8250 3350 7700 3350
+Wire Wire Line
+	8250 3550 7700 3550
+Wire Wire Line
+	8250 3650 7700 3650
+Wire Wire Line
+	8250 3750 7700 3750
+Wire Wire Line
+	8250 3850 7700 3850
+Wire Wire Line
+	8250 4050 7700 4050
+Wire Wire Line
+	8250 4250 7700 4250
+Wire Wire Line
+	8250 4350 7700 4350
+Wire Wire Line
+	8250 4550 7700 4550
+Wire Wire Line
+	8650 2850 8650 2300
+Wire Wire Line
+	7700 4650 8250 4650
+Text Label 7700 3150 0    50   ~ 0
+TDMS_D2_P
+Text Label 7700 3250 0    50   ~ 0
+TDMS_D2_N
+Text Label 7700 3350 0    50   ~ 0
+TDMS_D1_P
+Wire Wire Line
+	8250 3450 7700 3450
+Text Label 7700 3450 0    50   ~ 0
+TDMS_D1_N
+Text Label 7700 3550 0    50   ~ 0
+TDMS_D0_P
+Text Label 7700 3650 0    50   ~ 0
+TDMS_D0_N
+Text Label 7700 3750 0    50   ~ 0
+TDMS_CLK_P
+Text Label 7700 3850 0    50   ~ 0
+TDMS_CLK_N
+Text Label 7700 4050 0    50   ~ 0
+GND
+Text Label 7700 4250 0    50   ~ 0
+NC
+Text Label 7700 4350 0    50   ~ 0
+NC
+$Comp
+L power:GND #PWR0101
+U 1 1 5D608454
+P 8450 5350
+F 0 "#PWR0101" H 8450 5100 50  0001 C CNN
+F 1 "GND" H 8455 5177 50  0000 C CNN
+F 2 "" H 8450 5350 50  0001 C CNN
+F 3 "" H 8450 5350 50  0001 C CNN
+	1    8450 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 5050 8450 5200
+Wire Wire Line
+	8550 5050 8550 5200
+Wire Wire Line
+	8550 5200 8450 5200
+Connection ~ 8450 5200
+Wire Wire Line
+	8650 5050 8650 5200
+Wire Wire Line
+	8650 5200 8550 5200
+Connection ~ 8550 5200
+Wire Wire Line
+	8750 5050 8750 5200
+Wire Wire Line
+	8750 5200 8650 5200
+Connection ~ 8650 5200
+Wire Wire Line
+	8850 5050 8850 5200
+Wire Wire Line
+	8850 5200 8750 5200
+Connection ~ 8750 5200
+Wire Wire Line
+	8950 5050 8950 5200
+Wire Wire Line
+	8950 5200 8850 5200
+Connection ~ 8850 5200
+Wire Wire Line
+	8450 5200 8450 5350
+$Comp
+L power:+5V #PWR0102
+U 1 1 5D60AE48
+P 8650 2300
+F 0 "#PWR0102" H 8650 2150 50  0001 C CNN
+F 1 "+5V" H 8665 2473 50  0000 C CNN
+F 2 "" H 8650 2300 50  0001 C CNN
+F 3 "" H 8650 2300 50  0001 C CNN
+	1    8650 2300
+	1    0    0    -1  
+$EndComp
+Text Label 7700 4550 0    50   ~ 0
+NC
+Text Label 7700 4650 0    50   ~ 0
+NC
+$Comp
+L antmicro_Rectangular_Connectors_Headers_Male_Pins:0015912120 J3
+U 1 1 5D60CB7D
+P 6800 2100
+F 0 "J3" H 6800 2547 60  0000 C CNN
+F 1 "0015912120" H 6800 2441 60  0000 C CNN
+F 2 "antmicro-footprints:PinHeader_6x2_P2.54mm_Horizontal" H 7000 2300 60  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/015912120_sd.pdf" H 7000 2400 60  0001 L CNN
+F 4 "0015912120" H 7000 2600 60  0001 L CNN "MPN"
+F 5 "Molex" H 7000 3200 60  0001 L CNN "Manufacturer"
+	1    6800 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 1900 6050 1900
+Wire Wire Line
+	6600 2000 6050 2000
+Wire Wire Line
+	6600 2100 6050 2100
+Text Label 6050 1900 0    50   ~ 0
+TDMS_D2_P
+Text Label 6050 2000 0    50   ~ 0
+TDMS_D2_N
+Text Label 6050 2100 0    50   ~ 0
+TDMS_CLK_P
+Wire Wire Line
+	6600 2200 6050 2200
+Text Label 6050 2200 0    50   ~ 0
+TDMS_CLK_N
+Wire Wire Line
+	7000 2100 7550 2100
+Text Label 7550 2100 2    50   ~ 0
+TDMS_D1_P
+Wire Wire Line
+	7000 2200 7550 2200
+Text Label 7550 2200 2    50   ~ 0
+TDMS_D1_N
+Wire Wire Line
+	7000 1900 7550 1900
+Wire Wire Line
+	7000 2000 7550 2000
+Text Label 7550 1900 2    50   ~ 0
+TDMS_D0_P
+Text Label 7550 2000 2    50   ~ 0
+TDMS_D0_N
+$Comp
+L power:+5V #PWR0103
+U 1 1 5D612552
+P 7800 1800
+F 0 "#PWR0103" H 7800 1650 50  0001 C CNN
+F 1 "+5V" H 7815 1973 50  0000 C CNN
+F 2 "" H 7800 1800 50  0001 C CNN
+F 3 "" H 7800 1800 50  0001 C CNN
+	1    7800 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 2400 7800 1800
+$Comp
+L power:GND #PWR0104
+U 1 1 5D613A21
+P 5850 2800
+F 0 "#PWR0104" H 5850 2550 50  0001 C CNN
+F 1 "GND" H 5855 2627 50  0000 C CNN
+F 2 "" H 5850 2800 50  0001 C CNN
+F 3 "" H 5850 2800 50  0001 C CNN
+	1    5850 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 2300 5850 2300
+Wire Wire Line
+	5850 2300 5850 2800
+Wire Wire Line
+	7000 2400 7800 2400
+Wire Wire Line
+	7550 2300 7000 2300
+Wire Wire Line
+	6600 2400 6050 2400
+Text Label 7550 2300 2    50   ~ 0
+GND
+Text Label 6050 2400 0    50   ~ 0
++5V
+$Comp
+L antmicro_Rectangular_Connectors_Headers_Male_Pins:0015912120 J1
+U 1 1 5D618F18
+P 3400 2200
+F 0 "J1" H 3400 2647 60  0000 C CNN
+F 1 "0015912120" H 3400 2541 60  0000 C CNN
+F 2 "antmicro-footprints:PinHeader_6x2_P2.54mm_Horizontal" H 3600 2400 60  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/015912120_sd.pdf" H 3600 2500 60  0001 L CNN
+F 4 "0015912120" H 3600 2700 60  0001 L CNN "MPN"
+F 5 "Molex" H 3600 3300 60  0001 L CNN "Manufacturer"
+	1    3400 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 2000 2650 2000
+Wire Wire Line
+	3200 2100 2650 2100
+Wire Wire Line
+	3200 2200 2650 2200
+Text Label 2650 2000 0    50   ~ 0
+SS
+Text Label 2650 2100 0    50   ~ 0
+MOSI
+Text Label 2650 2200 0    50   ~ 0
+MISO
+Wire Wire Line
+	3200 2300 2650 2300
+Text Label 2650 2300 0    50   ~ 0
+SCK
+Wire Wire Line
+	3600 2200 4150 2200
+Text Label 4150 2200 2    50   ~ 0
+TDMS_D1_P
+Wire Wire Line
+	3600 2300 4150 2300
+Text Label 4150 2300 2    50   ~ 0
+TDMS_D1_N
+Wire Wire Line
+	3600 2000 4150 2000
+Wire Wire Line
+	3600 2100 4150 2100
+Text Label 4150 2000 2    50   ~ 0
+MOSI
+Text Label 4150 2100 2    50   ~ 0
+SCK
+$Comp
+L power:+5V #PWR0105
+U 1 1 5D618F2F
+P 4400 1900
+F 0 "#PWR0105" H 4400 1750 50  0001 C CNN
+F 1 "+5V" H 4415 2073 50  0000 C CNN
+F 2 "" H 4400 1900 50  0001 C CNN
+F 3 "" H 4400 1900 50  0001 C CNN
+	1    4400 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 2500 4400 1900
+$Comp
+L power:GND #PWR0106
+U 1 1 5D618F36
+P 2450 2900
+F 0 "#PWR0106" H 2450 2650 50  0001 C CNN
+F 1 "GND" H 2455 2727 50  0000 C CNN
+F 2 "" H 2450 2900 50  0001 C CNN
+F 3 "" H 2450 2900 50  0001 C CNN
+	1    2450 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 2400 2450 2400
+Wire Wire Line
+	2450 2400 2450 2900
+Wire Wire Line
+	3600 2500 4400 2500
+Wire Wire Line
+	4150 2400 3600 2400
+Wire Wire Line
+	3200 2500 2650 2500
+Text Label 4150 2400 2    50   ~ 0
+GND
+Text Label 2650 2500 0    50   ~ 0
++5V
+Wire Wire Line
+	5200 4450 3650 4450
+Wire Wire Line
+	5200 4550 3750 4550
+Wire Wire Line
+	5200 4650 3850 4650
+Wire Wire Line
+	5200 4850 3950 4850
+Wire Wire Line
+	5200 5050 4050 5050
+Wire Wire Line
+	5200 5150 4150 5150
+Wire Wire Line
+	5200 5250 2750 5250
+Wire Wire Line
+	5200 5350 2500 5350
+$Comp
+L HDMI_SD_expansion-rescue:SD_card_slot-antmicro_Memory_Connectors_PC_Card_Sockets J2
+U 1 1 5D623698
+P 5700 4900
+F 0 "J2" H 6178 5037 50  0000 L CNN
+F 1 "SD_card_slot" H 6178 4946 50  0000 L CNN
+F 2 "antmicro-footprints:1140084168" H 5350 4900 50  0001 C CNN
+F 3 "" H 5350 4900 50  0001 C CNN
+F 4 "1140084168" H 6178 4855 50  0000 L CNN "MPN"
+F 5 "Amphenol" H 6178 4764 50  0000 L CNN "Manufacturer"
+	1    5700 4900
+	1    0    0    -1  
+$EndComp
+Text Label 2500 4450 0    50   ~ 0
+DAT2
+Text Label 2500 4550 0    50   ~ 0
+SS
+Text Label 2500 4650 0    50   ~ 0
+MOSI
+Text Label 2500 4850 0    50   ~ 0
+SCK
+Text Label 2500 5050 0    50   ~ 0
+MISO
+Text Label 2500 5150 0    50   ~ 0
+DAT1
+Text Label 2500 5250 0    50   ~ 0
+CD
+Text Label 2500 5350 0    50   ~ 0
+CD2
+Text Label 2500 5250 0    50   ~ 0
+CD1
+$Comp
+L antmicro_TVS_Diodes:TPD6E05U06 D1
+U 1 1 5D65773B
+P 3800 5800
+F 0 "D1" H 3800 6100 50  0000 R CNN
+F 1 "TPD6E05U06" V 3650 6050 50  0000 R CNN
+F 2 "antmicro-footprints:TPD6E05U06" H 5000 6050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpd6e05u06.pdf" H 5300 6150 50  0001 C CNN
+F 4 "TPD6E05U06" V 3450 5750 50  0000 R CNN "MPN"
+F 5 "Texas Instruments" V 3550 5850 50  0000 R CNN "Manufacturer"
+	1    3800 5800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3650 5550 3650 4450
+Connection ~ 3650 4450
+Wire Wire Line
+	3650 4450 2500 4450
+Wire Wire Line
+	3750 5550 3750 4550
+Connection ~ 3750 4550
+Wire Wire Line
+	3750 4550 3500 4550
+Wire Wire Line
+	3850 5550 3850 4650
+Connection ~ 3850 4650
+Wire Wire Line
+	3850 4650 3350 4650
+Wire Wire Line
+	3950 5550 3950 4850
+Connection ~ 3950 4850
+Wire Wire Line
+	3950 4850 3200 4850
+Wire Wire Line
+	4050 5550 4050 5050
+Connection ~ 4050 5050
+Wire Wire Line
+	4050 5050 3050 5050
+Wire Wire Line
+	4150 5550 4150 5150
+Connection ~ 4150 5150
+Wire Wire Line
+	4150 5150 2900 5150
+Wire Wire Line
+	4250 5550 4250 5450
+Wire Wire Line
+	4250 5450 4350 5450
+Wire Wire Line
+	4600 5450 4600 6000
+Wire Wire Line
+	4350 5550 4350 5450
+Connection ~ 4350 5450
+Wire Wire Line
+	4350 5450 4600 5450
+$Comp
+L power:GND #PWR0107
+U 1 1 5D668F6D
+P 4600 6000
+F 0 "#PWR0107" H 4600 5750 50  0001 C CNN
+F 1 "GND" H 4605 5827 50  0000 C CNN
+F 2 "" H 4600 6000 50  0001 C CNN
+F 3 "" H 4600 6000 50  0001 C CNN
+	1    4600 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5D66B9E8
+P 5000 6000
+F 0 "#PWR0108" H 5000 5750 50  0001 C CNN
+F 1 "GND" H 5005 5827 50  0000 C CNN
+F 2 "" H 5000 6000 50  0001 C CNN
+F 3 "" H 5000 6000 50  0001 C CNN
+	1    5000 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 4950 5000 4950
+Wire Wire Line
+	5000 4950 5000 6000
+$Comp
+L power:+3V3 #PWR0109
+U 1 1 5D670B5E
+P 4800 4200
+F 0 "#PWR0109" H 4800 4050 50  0001 C CNN
+F 1 "+3V3" H 4815 4373 50  0000 C CNN
+F 2 "" H 4800 4200 50  0001 C CNN
+F 3 "" H 4800 4200 50  0001 C CNN
+	1    4800 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 4200 4800 4750
+Wire Wire Line
+	4800 4750 5200 4750
+$Comp
+L power:GND #PWR0110
+U 1 1 5D682D2F
+P 4800 6000
+F 0 "#PWR0110" H 4800 5750 50  0001 C CNN
+F 1 "GND" H 4805 5827 50  0000 C CNN
+F 2 "" H 4800 6000 50  0001 C CNN
+F 3 "" H 4800 6000 50  0001 C CNN
+	1    4800 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 4750 4800 5450
+Connection ~ 4800 4750
+Wire Wire Line
+	4800 6000 4800 5750
+Wire Wire Line
+	3650 4250 3650 4450
+Wire Wire Line
+	3500 4250 3500 4550
+Connection ~ 3500 4550
+Wire Wire Line
+	3500 4550 2500 4550
+Wire Wire Line
+	3350 4250 3350 4650
+Connection ~ 3350 4650
+Wire Wire Line
+	3350 4650 2500 4650
+Wire Wire Line
+	3200 4250 3200 4850
+Connection ~ 3200 4850
+Wire Wire Line
+	3200 4850 2500 4850
+Wire Wire Line
+	3050 4250 3050 5050
+Connection ~ 3050 5050
+Wire Wire Line
+	3050 5050 2500 5050
+Wire Wire Line
+	2900 4250 2900 5150
+Connection ~ 2900 5150
+Wire Wire Line
+	2900 5150 2500 5150
+Wire Wire Line
+	2750 4250 2750 5250
+Connection ~ 2750 5250
+Wire Wire Line
+	2750 5250 2500 5250
+Wire Wire Line
+	2750 3950 2750 3850
+Wire Wire Line
+	2750 3850 2900 3850
+Wire Wire Line
+	3650 3850 3650 3950
+Wire Wire Line
+	2900 3950 2900 3850
+Connection ~ 2900 3850
+Wire Wire Line
+	2900 3850 3050 3850
+Wire Wire Line
+	3050 3950 3050 3850
+Connection ~ 3050 3850
+Wire Wire Line
+	3050 3850 3200 3850
+Wire Wire Line
+	3200 3950 3200 3850
+Connection ~ 3200 3850
+Wire Wire Line
+	3350 3950 3350 3850
+Wire Wire Line
+	3200 3850 3350 3850
+Connection ~ 3350 3850
+Wire Wire Line
+	3350 3850 3500 3850
+Wire Wire Line
+	3500 3950 3500 3850
+Connection ~ 3500 3850
+Wire Wire Line
+	3500 3850 3650 3850
+Wire Wire Line
+	3200 3850 3200 3700
+$Comp
+L power:+3V3 #PWR0111
+U 1 1 5D6DB0C9
+P 3200 3700
+F 0 "#PWR0111" H 3200 3550 50  0001 C CNN
+F 1 "+3V3" H 3215 3873 50  0000 C CNN
+F 2 "" H 3200 3700 50  0001 C CNN
+F 3 "" H 3200 3700 50  0001 C CNN
+	1    3200 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicro_Resistors_0603:R_10k_0603 R?
+U 1 1 5D64235C
+P 2750 4100
+F 0 "R?" V 2600 4000 60  0000 L CNN
+F 1 "R_10k_0603" H 2750 3950 60  0001 C CNN
+F 2 "antmicro-footprints:0603-res" H 2950 4300 60  0001 L CNN
+F 3 "" H 2750 4100 50  0001 C CNN
+F 4 "BOURNS" H 2950 4500 60  0001 L CNN "Manufacturer"
+F 5 "CR0603-JW-103ELF" H 2950 4400 60  0001 L CNN "MPN"
+F 6 "10k" V 2900 3950 50  0000 L CNN "Val"
+	1    2750 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicro_Resistors_0603:R_10k_0603 R?
+U 1 1 5D64244E
+P 2900 4100
+F 0 "R?" V 2750 4000 60  0000 L CNN
+F 1 "R_10k_0603" H 2900 3950 60  0001 C CNN
+F 2 "antmicro-footprints:0603-res" H 3100 4300 60  0001 L CNN
+F 3 "" H 2900 4100 50  0001 C CNN
+F 4 "BOURNS" H 3100 4500 60  0001 L CNN "Manufacturer"
+F 5 "CR0603-JW-103ELF" H 3100 4400 60  0001 L CNN "MPN"
+F 6 "10k" V 3050 3950 50  0000 L CNN "Val"
+	1    2900 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicro_Resistors_0603:R_10k_0603 R?
+U 1 1 5D642476
+P 3050 4100
+F 0 "R?" V 2900 4000 60  0000 L CNN
+F 1 "R_10k_0603" H 3050 3950 60  0001 C CNN
+F 2 "antmicro-footprints:0603-res" H 3250 4300 60  0001 L CNN
+F 3 "" H 3050 4100 50  0001 C CNN
+F 4 "BOURNS" H 3250 4500 60  0001 L CNN "Manufacturer"
+F 5 "CR0603-JW-103ELF" H 3250 4400 60  0001 L CNN "MPN"
+F 6 "10k" V 3200 3950 50  0000 L CNN "Val"
+	1    3050 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicro_Resistors_0603:R_10k_0603 R?
+U 1 1 5D6424A0
+P 3200 4100
+F 0 "R?" V 3050 4000 60  0000 L CNN
+F 1 "R_10k_0603" H 3200 3950 60  0001 C CNN
+F 2 "antmicro-footprints:0603-res" H 3400 4300 60  0001 L CNN
+F 3 "" H 3200 4100 50  0001 C CNN
+F 4 "BOURNS" H 3400 4500 60  0001 L CNN "Manufacturer"
+F 5 "CR0603-JW-103ELF" H 3400 4400 60  0001 L CNN "MPN"
+F 6 "10k" V 3350 3950 50  0000 L CNN "Val"
+	1    3200 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicro_Resistors_0603:R_10k_0603 R?
+U 1 1 5D6424CC
+P 3350 4100
+F 0 "R?" V 3200 4000 60  0000 L CNN
+F 1 "R_10k_0603" H 3350 3950 60  0001 C CNN
+F 2 "antmicro-footprints:0603-res" H 3550 4300 60  0001 L CNN
+F 3 "" H 3350 4100 50  0001 C CNN
+F 4 "BOURNS" H 3550 4500 60  0001 L CNN "Manufacturer"
+F 5 "CR0603-JW-103ELF" H 3550 4400 60  0001 L CNN "MPN"
+F 6 "10k" V 3500 3950 50  0000 L CNN "Val"
+	1    3350 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicro_Resistors_0603:R_10k_0603 R?
+U 1 1 5D6424FA
+P 3500 4100
+F 0 "R?" V 3350 4000 60  0000 L CNN
+F 1 "R_10k_0603" H 3500 3950 60  0001 C CNN
+F 2 "antmicro-footprints:0603-res" H 3700 4300 60  0001 L CNN
+F 3 "" H 3500 4100 50  0001 C CNN
+F 4 "BOURNS" H 3700 4500 60  0001 L CNN "Manufacturer"
+F 5 "CR0603-JW-103ELF" H 3700 4400 60  0001 L CNN "MPN"
+F 6 "10k" V 3650 3950 50  0000 L CNN "Val"
+	1    3500 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicro_Resistors_0603:R_10k_0603 R?
+U 1 1 5D64252A
+P 3650 4100
+F 0 "R?" V 3500 4000 60  0000 L CNN
+F 1 "R_10k_0603" H 3650 3950 60  0001 C CNN
+F 2 "antmicro-footprints:0603-res" H 3850 4300 60  0001 L CNN
+F 3 "" H 3650 4100 50  0001 C CNN
+F 4 "BOURNS" H 3850 4500 60  0001 L CNN "Manufacturer"
+F 5 "CR0603-JW-103ELF" H 3850 4400 60  0001 L CNN "MPN"
+F 6 "10k" V 3800 3950 50  0000 L CNN "Val"
+	1    3650 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicro_Capacitors_0603:C_1u_0603 C?
+U 1 1 5D64F7D7
+P 4800 5600
+F 0 "C?" H 4850 5700 60  0000 L CNN
+F 1 "C_1u_0603" H 4800 5450 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 5000 5800 60  0001 L CNN
+F 3 "" H 4800 5600 50  0001 C CNN
+F 4 "WALSIN" H 5000 6000 60  0001 L CNN "Manufacturer"
+F 5 "0603X105K160CT" H 5000 5900 60  0001 L CNN "MPN"
+F 6 "1u" H 4850 5500 50  0000 L CNN "Val"
+	1    4800 5600
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
