@@ -647,4 +647,20 @@ Text Notes 6300 3800 0    98   ~ 0
 HDMI_INTERFACE
 Text Notes 1100 4100 0    98   ~ 0
 SD_CARD_SLOT
+Text Notes 3300 1950 0    50   ~ 10
+why TMDS here?\n
+Text Notes 750  2050 0    50   ~ 10
+CK and MOSI doubled\n
+Text Notes 1700 2450 0    50   ~ 10
+VCC is 3V3 in PMOD standard
+Text Notes 6900 2600 0    50   ~ 10
+VCC is 3V3 in PMOD standard
+Text Notes 8750 4300 0    50   ~ 10
+there is no 5V coming from PMOD, we can leave it floating\n
+Text Notes 2800 4500 0    50   ~ 10
+generally some connections for SD are wrong. \nI suggest using: \nhttps://store.digilentinc.com/pmod-microsd-microsd-card-slot/ \nas reference\n
+Text Notes 8350 5000 0    50   ~ 10
+swapped P with N\n
+Text Notes 8450 2350 0    50   ~ 10
+Connect all TMDS signals via 100n capacitors.\nWe can always replace them with 0R resistors
 $EndSCHEMATC
