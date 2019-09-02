@@ -531,10 +531,10 @@ F 3 "" H 3200 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Resistors_0603:R_10k_0603 R?
+L antmicro_Resistors_0603:R_10k_0603 R7
 U 1 1 5D64235C
 P 2750 4100
-F 0 "R?" V 2600 4000 60  0000 L CNN
+F 0 "R7" V 2600 4000 60  0000 L CNN
 F 1 "R_10k_0603" H 2750 3950 60  0001 C CNN
 F 2 "antmicro-footprints:0603-res" H 2950 4300 60  0001 L CNN
 F 3 "" H 2750 4100 50  0001 C CNN
@@ -545,10 +545,10 @@ F 6 "10k" V 2900 3950 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicro_Resistors_0603:R_10k_0603 R?
+L antmicro_Resistors_0603:R_10k_0603 R6
 U 1 1 5D64244E
 P 2900 4100
-F 0 "R?" V 2750 4000 60  0000 L CNN
+F 0 "R6" V 2750 4000 60  0000 L CNN
 F 1 "R_10k_0603" H 2900 3950 60  0001 C CNN
 F 2 "antmicro-footprints:0603-res" H 3100 4300 60  0001 L CNN
 F 3 "" H 2900 4100 50  0001 C CNN
@@ -559,10 +559,10 @@ F 6 "10k" V 3050 3950 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicro_Resistors_0603:R_10k_0603 R?
+L antmicro_Resistors_0603:R_10k_0603 R5
 U 1 1 5D642476
 P 3050 4100
-F 0 "R?" V 2900 4000 60  0000 L CNN
+F 0 "R5" V 2900 4000 60  0000 L CNN
 F 1 "R_10k_0603" H 3050 3950 60  0001 C CNN
 F 2 "antmicro-footprints:0603-res" H 3250 4300 60  0001 L CNN
 F 3 "" H 3050 4100 50  0001 C CNN
@@ -573,10 +573,10 @@ F 6 "10k" V 3200 3950 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicro_Resistors_0603:R_10k_0603 R?
+L antmicro_Resistors_0603:R_10k_0603 R4
 U 1 1 5D6424A0
 P 3200 4100
-F 0 "R?" V 3050 4000 60  0000 L CNN
+F 0 "R4" V 3050 4000 60  0000 L CNN
 F 1 "R_10k_0603" H 3200 3950 60  0001 C CNN
 F 2 "antmicro-footprints:0603-res" H 3400 4300 60  0001 L CNN
 F 3 "" H 3200 4100 50  0001 C CNN
@@ -587,10 +587,10 @@ F 6 "10k" V 3350 3950 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicro_Resistors_0603:R_10k_0603 R?
+L antmicro_Resistors_0603:R_10k_0603 R3
 U 1 1 5D6424CC
 P 3350 4100
-F 0 "R?" V 3200 4000 60  0000 L CNN
+F 0 "R3" V 3200 4000 60  0000 L CNN
 F 1 "R_10k_0603" H 3350 3950 60  0001 C CNN
 F 2 "antmicro-footprints:0603-res" H 3550 4300 60  0001 L CNN
 F 3 "" H 3350 4100 50  0001 C CNN
@@ -601,10 +601,10 @@ F 6 "10k" V 3500 3950 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicro_Resistors_0603:R_10k_0603 R?
+L antmicro_Resistors_0603:R_10k_0603 R2
 U 1 1 5D6424FA
 P 3500 4100
-F 0 "R?" V 3350 4000 60  0000 L CNN
+F 0 "R2" V 3350 4000 60  0000 L CNN
 F 1 "R_10k_0603" H 3500 3950 60  0001 C CNN
 F 2 "antmicro-footprints:0603-res" H 3700 4300 60  0001 L CNN
 F 3 "" H 3500 4100 50  0001 C CNN
@@ -615,10 +615,10 @@ F 6 "10k" V 3650 3950 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicro_Resistors_0603:R_10k_0603 R?
+L antmicro_Resistors_0603:R_10k_0603 R1
 U 1 1 5D64252A
 P 3650 4100
-F 0 "R?" V 3500 4000 60  0000 L CNN
+F 0 "R1" V 3500 4000 60  0000 L CNN
 F 1 "R_10k_0603" H 3650 3950 60  0001 C CNN
 F 2 "antmicro-footprints:0603-res" H 3850 4300 60  0001 L CNN
 F 3 "" H 3650 4100 50  0001 C CNN
@@ -629,10 +629,10 @@ F 6 "10k" V 3800 3950 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicro_Capacitors_0603:C_1u_0603 C?
+L antmicro_Capacitors_0603:C_1u_0603 C1
 U 1 1 5D64F7D7
 P 4800 5600
-F 0 "C?" H 4850 5700 60  0000 L CNN
+F 0 "C1" H 4850 5700 60  0000 L CNN
 F 1 "C_1u_0603" H 4800 5450 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 5000 5800 60  0001 L CNN
 F 3 "" H 4800 5600 50  0001 C CNN
