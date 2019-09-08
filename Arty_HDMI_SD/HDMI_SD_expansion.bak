@@ -394,7 +394,7 @@ Connection ~ 1950 6600
 Wire Wire Line
 	1950 6600 3900 6600
 $Comp
-L antmicro_Capacitors_0402:C_100n_0402_6V3 C2
+L HDMI_SD_expansion-rescue:C_100n_0402_6V3-antmicro_Capacitors_0402 C2
 U 1 1 5D82C2CC
 P 3100 3150
 F 0 "C2" H 2950 3250 60  0000 L CNN
@@ -408,7 +408,7 @@ F 6 "100n" H 3100 3050 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Capacitors_0402:C_100n_0402_6V3 C3
+L HDMI_SD_expansion-rescue:C_100n_0402_6V3-antmicro_Capacitors_0402 C3
 U 1 1 5D82C3D2
 P 3350 3150
 F 0 "C3" H 3200 3250 60  0000 L CNN
@@ -422,7 +422,7 @@ F 6 "100n" H 3350 3050 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Capacitors_0402:C_100n_0402_6V3 C4
+L HDMI_SD_expansion-rescue:C_100n_0402_6V3-antmicro_Capacitors_0402 C4
 U 1 1 5D82FF3B
 P 3600 3150
 F 0 "C4" H 3450 3250 60  0000 L CNN
@@ -436,7 +436,7 @@ F 6 "100n" H 3600 3050 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Capacitors_0402:C_100n_0402_6V3 C5
+L HDMI_SD_expansion-rescue:C_100n_0402_6V3-antmicro_Capacitors_0402 C5
 U 1 1 5D82FF7F
 P 3850 3150
 F 0 "C5" H 3700 3250 60  0000 L CNN
@@ -450,7 +450,7 @@ F 6 "100n" H 3850 3050 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Capacitors_0402:C_100n_0402_6V3 C6
+L HDMI_SD_expansion-rescue:C_100n_0402_6V3-antmicro_Capacitors_0402 C6
 U 1 1 5D8300D9
 P 4100 3150
 F 0 "C6" H 3950 3250 60  0000 L CNN
@@ -464,7 +464,7 @@ F 6 "100n" H 4100 3050 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Capacitors_0402:C_100n_0402_6V3 C7
+L HDMI_SD_expansion-rescue:C_100n_0402_6V3-antmicro_Capacitors_0402 C7
 U 1 1 5D8300E3
 P 4350 3150
 F 0 "C7" H 4200 3250 60  0000 L CNN
@@ -478,7 +478,7 @@ F 6 "100n" H 4350 3050 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Capacitors_0402:C_100n_0402_6V3 C8
+L HDMI_SD_expansion-rescue:C_100n_0402_6V3-antmicro_Capacitors_0402 C8
 U 1 1 5D8300ED
 P 4600 3150
 F 0 "C8" H 4450 3250 60  0000 L CNN
@@ -492,7 +492,7 @@ F 6 "100n" H 4600 3050 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Capacitors_0402:C_100n_0402_6V3 C9
+L HDMI_SD_expansion-rescue:C_100n_0402_6V3-antmicro_Capacitors_0402 C9
 U 1 1 5D8300F7
 P 4850 3150
 F 0 "C9" H 4700 3250 60  0000 L CNN
@@ -597,7 +597,7 @@ F 5 "Amphenol" H 4368 6974 50  0000 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Capacitors_0402:C_100n_0402_6V3 C1
+L HDMI_SD_expansion-rescue:C_100n_0402_6V3-antmicro_Capacitors_0402 C1
 U 1 1 5D7BA763
 P 3350 7050
 F 0 "C1" H 3200 7150 60  0000 L CNN
@@ -756,7 +756,7 @@ Wire Wire Line
 	3350 5200 3350 5050
 Connection ~ 3350 5200
 $Comp
-L antmicro_Capacitors_0402:C_100n_0402_6V3 C18
+L HDMI_SD_expansion-rescue:C_100n_0402_6V3-antmicro_Capacitors_0402 C18
 U 1 1 5D7247BC
 P 8250 5950
 F 0 "C18" H 8100 6050 60  0000 L CNN
@@ -841,7 +841,7 @@ Wire Wire Line
 Wire Wire Line
 	9650 3850 9650 4050
 $Comp
-L antmicro_Capacitors_0402:C_100n_0402_6V3 C19
+L HDMI_SD_expansion-rescue:C_100n_0402_6V3-antmicro_Capacitors_0402 C19
 U 1 1 5D77BBF9
 P 10250 3850
 F 0 "C19" H 10300 3950 60  0000 L CNN
@@ -933,27 +933,18 @@ Wire Wire Line
 $Comp
 L antmicro_USB_DVI_HDMI_Connectors:UE27AC54100 J5
 U 1 1 5D7BA5ED
-P 6000 4550
-F 0 "J5" H 5900 4850 60  0000 C CNN
-F 1 "UE27AC54100" H 5800 4200 60  0000 C CNN
-F 2 "antmicro-footprints:USB_A_Female_UE27AC54100" H 6200 4750 60  0001 L CNN
-F 3 "https://www.amphenolcanada.com/ProductSearch/drawings/AC/UE27ACX4X0X.pdf" H 6200 4850 60  0001 L CNN
-F 4 "UE27AC54100" H 6200 5050 60  0001 L CNN "MPN"
-F 5 "Amphenol ICC (Commercial Products)" H 6200 5650 60  0001 L CNN "Manufacturer"
-	1    6000 4550
-	1    0    0    -1  
+P 6000 4450
+F 0 "J5" H 5900 4750 60  0000 C CNN
+F 1 "UE27AC54100" H 5800 4100 60  0000 C CNN
+F 2 "antmicro-footprints:USB_A_Female_UE27AC54100" H 6200 4650 60  0001 L CNN
+F 3 "https://www.amphenolcanada.com/ProductSearch/drawings/AC/UE27ACX4X0X.pdf" H 6200 4750 60  0001 L CNN
+F 4 "UE27AC54100" H 6200 4950 60  0001 L CNN "MPN"
+F 5 "Amphenol ICC (Commercial Products)" H 6200 5550 60  0001 L CNN "Manufacturer"
+	1    6000 4450
+	1    0    0    1   
 $EndComp
 Wire Wire Line
-	6125 4875 6125 5050
-Wire Wire Line
-	6125 5050 6450 5050
-Wire Wire Line
-	6450 5050 6450 4650
-Wire Wire Line
 	6450 4650 6300 4650
-Wire Wire Line
-	6450 5050 6450 5250
-Connection ~ 6450 5050
 $Comp
 L power:GND #PWR0109
 U 1 1 5D7E2541
@@ -1060,24 +1051,7 @@ Wire Wire Line
 	6950 5350 6950 5050
 Wire Wire Line
 	6650 5350 6650 5850
-Wire Wire Line
-	6650 5850 6750 5850
 Connection ~ 6650 5350
-$Comp
-L antmicro_Ferrite_Beads_and_Chips:BLM21PG221SN1D FB1
-U 1 1 5D853F7D
-P 6950 5850
-F 0 "FB1" H 6950 6137 60  0000 C CNN
-F 1 "BLM21PG221SN1D" H 6950 6031 60  0000 C CNN
-F 2 "antmicro-footprints:0805" H 7150 6050 60  0001 L CNN
-F 3 "https://www.murata.com/en-us/products/en-us/products/productdata/8796738977822/ENFA0005.pdf" H 7150 6150 60  0001 L CNN
-F 4 "BLM21PG221SN1D" H 7150 6350 60  0001 L CNN "MPN"
-F 5 "Murata Electronics North America" H 7150 6950 60  0001 L CNN "Manufacturer"
-	1    6950 5850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7150 5850 7250 5850
 Wire Wire Line
 	7800 5850 7800 5600
 Wire Wire Line
@@ -1090,19 +1064,6 @@ Wire Wire Line
 Connection ~ 7550 5850
 Wire Wire Line
 	7550 5850 7800 5850
-$Comp
-L antmicro_Oscillators:KX-7_12,MHz Y1
-U 1 1 5D8730EF
-P 7450 4900
-F 0 "Y1" H 7350 5050 31  0000 L CNN
-F 1 "KX-7_12,MHz" H 7500 4750 31  0000 L CNN
-F 2 "antmicro-footprints:KX-7" H 9550 4900 50  0001 C CNN
-F 3 "https://www.geyer-electronic.com/fileadmin/user_upload/frequenz/quartz/KX-7/GEYER-KX-7.pdf" H 9650 5000 50  0001 C CNN
-F 4 "KX-7_SMD_CRYSTAL_12,0 MHZ" H 7500 4850 31  0000 L CNN "MPN"
-F 5 "Geyer Electronic" H 7550 4800 31  0000 L CNN "Manufacturer"
-	1    7450 4900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7450 5100 7450 5200
 Wire Wire Line
@@ -1341,20 +1302,6 @@ Wire Wire Line
 	6000 1750 6000 1900
 Wire Wire Line
 	5650 2300 5650 2200
-$Comp
-L antmicro_Resistors_0603:R_0R_0603 R11
-U 1 1 5DAF8709
-P 8800 4050
-F 0 "R11" V 8755 4120 60  0000 L CNN
-F 1 "R_0R_0603" H 8800 3900 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 9000 4250 60  0001 L CNN
-F 3 "" H 8800 4050 50  0001 C CNN
-F 4 "BOURNS" H 9000 4450 60  0001 L CNN "Manufacturer"
-F 5 "CR0603-J/-000ELF" H 9000 4350 60  0001 L CNN "MPN"
-F 6 "0R" V 8853 4120 50  0000 L CNN "Val"
-	1    8800 4050
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	8800 3850 8800 3900
 Wire Wire Line
@@ -1409,7 +1356,7 @@ Wire Wire Line
 	7600 1850 7800 1850
 Connection ~ 7600 1850
 $Comp
-L antmicro_Capacitors_0402:C_100n_0402_6V3 C15
+L HDMI_SD_expansion-rescue:C_100n_0402_6V3-antmicro_Capacitors_0402 C15
 U 1 1 5DBC649D
 P 6950 3950
 F 0 "C15" H 6800 4050 60  0000 L CNN
@@ -1472,8 +1419,6 @@ F 3 "" H 6950 4200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6950 4200 6950 4100
-Text Notes 6000 6100 0    50   ~ 0
-Co to jest? Było w tym Reference od \nArduino i w bibliotece to wstawiłem.
 $Comp
 L antmicro_Test_Points:TP_SMD1MM TP1
 U 1 1 5DC35340
@@ -1507,17 +1452,13 @@ F 3 "" H 8100 2150 60  0001 L CNN
 	1    7900 1850
 	0    -1   -1   0   
 $EndComp
-Text Notes 5400 3600 0    50   ~ 0
-Tutaj jeszcze bezpiecznik na 500mA \nale chyba musze go zrobic najpierw
-Text Notes 3550 5350 0    50   ~ 0
-Dodać ogranicznik prądu?
 Wire Wire Line
 	6000 2300 6000 2400
 $Comp
-L antmicro_Rectangular_Connectors_Headers_Male_Pins:0015912120 J?
+L antmicro_Rectangular_Connectors_Headers_Male_Pins:0015912120 J6
 U 1 1 5DC8649C
 P 1400 2600
-F 0 "J?" H 1400 3047 60  0000 C CNN
+F 0 "J6" H 1400 3047 60  0000 C CNN
 F 1 "0015912120" H 1400 2941 60  0000 C CNN
 F 2 "antmicro-footprints:PinHeader_6x2_P2.54mm_Horizontal_Mirrored" H 1600 2800 60  0001 L CNN
 F 3 "https://www.molex.com/pdm_docs/sd/015912120_sd.pdf" H 1600 2900 60  0001 L CNN
@@ -1572,4 +1513,41 @@ Text Notes 5100 500  0    197  ~ 0
 ?
 Text Notes 5550 800  0    118  ~ 0
 DC-DC Step UP
+$Comp
+L antmicro_Oscillators:KX-7_12,MHz Y1
+U 1 1 5DD93739
+P 7450 4900
+F 0 "Y1" H 7641 4993 31  0000 L CNN
+F 1 "KX-7_12,MHz" H 7641 4931 31  0000 L CNN
+F 2 "antmicro-footprints:KX-7" H 9550 4900 50  0001 C CNN
+F 3 "https://www.geyer-electronic.com/fileadmin/user_upload/frequenz/quartz/KX-7/GEYER-KX-7.pdf" H 9650 5000 50  0001 C CNN
+F 4 "KX-7_SMD_CRYSTAL_12,0 MHZ" H 7641 4869 31  0000 L CNN "MPN"
+F 5 "Geyer Electronic" H 7641 4807 31  0000 L CNN "Manufacturer"
+	1    7450 4900
+	1    0    0    -1  
+$EndComp
+Text Notes 5000 2950 0    50   ~ 10
+caps will be replaced with 0R by default
+$Comp
+L antmicro_Resistors_0603:R_10k_0603 R11
+U 1 1 5D77F979
+P 8800 4050
+F 0 "R11" V 8755 4120 60  0000 L CNN
+F 1 "R_10k_0603" H 8800 3900 60  0001 C CNN
+F 2 "antmicro-footprints:0603-res" H 9000 4250 60  0001 L CNN
+F 3 "" H 8800 4050 50  0001 C CNN
+F 4 "BOURNS" H 9000 4450 60  0001 L CNN "Manufacturer"
+F 5 "CR0603-JW-103ELF" H 9000 4350 60  0001 L CNN "MPN"
+F 6 "10k" V 8853 4120 50  0000 L CNN "Val"
+	1    8800 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6650 5850 7250 5850
+Text Label 1800 2400 0    50   ~ 0
+GPX_USB
+Text Label 1800 2500 0    50   ~ 0
+RST_USB
+Wire Wire Line
+	6450 4650 6450 5250
 $EndSCHEMATC
