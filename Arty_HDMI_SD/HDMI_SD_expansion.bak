@@ -934,7 +934,7 @@ $Comp
 L antmicro_USB_DVI_HDMI_Connectors:UE27AC54100 J5
 U 1 1 5D7BA5ED
 P 6000 4450
-F 0 "J5" H 5900 4750 60  0000 C CNN
+F 0 "J5" H 6050 4850 60  0000 C CNN
 F 1 "UE27AC54100" H 5800 4100 60  0000 C CNN
 F 2 "antmicro-footprints:USB_A_Female_UE27AC54100" H 6200 4650 60  0001 L CNN
 F 3 "https://www.amphenolcanada.com/ProductSearch/drawings/AC/UE27ACX4X0X.pdf" H 6200 4750 60  0001 L CNN
@@ -1457,56 +1457,56 @@ Wire Wire Line
 $Comp
 L antmicro_Rectangular_Connectors_Headers_Male_Pins:0015912120 J6
 U 1 1 5DC8649C
-P 1400 2600
-F 0 "J6" H 1400 3047 60  0000 C CNN
-F 1 "0015912120" H 1400 2941 60  0000 C CNN
-F 2 "antmicro-footprints:PinHeader_6x2_P2.54mm_Horizontal_Mirrored" H 1600 2800 60  0001 L CNN
-F 3 "https://www.molex.com/pdm_docs/sd/015912120_sd.pdf" H 1600 2900 60  0001 L CNN
-F 4 "0015912120" H 1600 3100 60  0001 L CNN "MPN"
-F 5 "Molex" H 1600 3700 60  0001 L CNN "Manufacturer"
-	1    1400 2600
+P 1600 2600
+F 0 "J6" H 1600 3047 60  0000 C CNN
+F 1 "0015912120" H 1600 2941 60  0000 C CNN
+F 2 "antmicro-footprints:PinHeader_6x2_P2.54mm_Horizontal_Mirrored" H 1800 2800 60  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/015912120_sd.pdf" H 1800 2900 60  0001 L CNN
+F 4 "0015912120" H 1800 3100 60  0001 L CNN "MPN"
+F 5 "Molex" H 1800 3700 60  0001 L CNN "Manufacturer"
+	1    1600 2600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1200 2400 650  2400
+	1400 2400 850  2400
 Wire Wire Line
-	1200 2600 650  2600
-Text Label 650  2400 0    50   ~ 0
+	1400 2600 850  2600
+Text Label 850  2400 0    50   ~ 0
 SS_USB
-Text Label 650  2600 0    50   ~ 0
+Text Label 850  2600 0    50   ~ 0
 MISO_USB
 Wire Wire Line
-	2150 2400 1600 2400
+	2350 2400 1800 2400
 Wire Wire Line
-	1600 2500 2150 2500
+	1800 2500 2350 2500
 Wire Wire Line
-	1200 2500 650  2500
+	1400 2500 850  2500
 Wire Wire Line
-	1200 2700 650  2700
-Text Label 650  2500 0    50   ~ 0
+	1400 2700 850  2700
+Text Label 850  2500 0    50   ~ 0
 MOSI_USB
-Text Label 650  2700 0    50   ~ 0
+Text Label 850  2700 0    50   ~ 0
 SCK_USB
 Wire Wire Line
-	1600 2600 2150 2600
+	1800 2600 2350 2600
 Wire Wire Line
-	2150 2700 1600 2700
+	2350 2700 1800 2700
 Wire Wire Line
-	650  2800 1200 2800
-Text Label 650  2800 0    50   ~ 0
+	850  2800 1400 2800
+Text Label 850  2800 0    50   ~ 0
 GND
-Text Label 650  2900 0    50   ~ 0
+Text Label 850  2900 0    50   ~ 0
 +3V3
 Wire Wire Line
-	1200 2900 650  2900
+	1400 2900 850  2900
 Wire Wire Line
-	2150 2800 1600 2800
-Text Label 2150 2800 2    50   ~ 0
+	2350 2800 1800 2800
+Text Label 2350 2800 2    50   ~ 0
 GND
-Text Label 2150 2900 2    50   ~ 0
+Text Label 2350 2900 2    50   ~ 0
 +3V3
 Wire Wire Line
-	1600 2900 2150 2900
+	1800 2900 2350 2900
 Text Notes 600  2000 0    98   ~ 0
 USB_CON_#3
 Text Notes 5100 500  0    197  ~ 0
@@ -1544,10 +1544,94 @@ F 6 "10k" V 8853 4120 50  0000 L CNN "Val"
 $EndComp
 Wire Wire Line
 	6650 5850 7250 5850
-Text Label 1800 2400 0    50   ~ 0
+Text Label 2000 2400 0    50   ~ 0
 GPX_USB
-Text Label 1800 2500 0    50   ~ 0
+Text Label 2000 2500 0    50   ~ 0
 RST_USB
 Wire Wire Line
 	6450 4650 6450 5250
+Wire Wire Line
+	8800 4250 8200 4250
+Connection ~ 8800 4250
+Text Label 8200 4250 0    50   ~ 0
+INT_USB
+Text Label 2350 2600 2    50   ~ 0
+INT_USB
+$Comp
+L antmicro_Test_Points:TP_SMD1MM TP?
+U 1 1 5D79AD74
+P 8100 5050
+F 0 "TP?" V 8100 4950 50  0000 C CNN
+F 1 "TP_SMD1MM" H 8100 4950 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 8300 5250 60  0001 L CNN
+F 3 "" H 8300 5350 60  0001 L CNN
+	1    8100 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicro_Test_Points:TP_SMD1MM TP?
+U 1 1 5D79AE8D
+P 8100 5150
+F 0 "TP?" V 8100 5050 50  0000 C CNN
+F 1 "TP_SMD1MM" H 8100 5050 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 8300 5350 60  0001 L CNN
+F 3 "" H 8300 5450 60  0001 L CNN
+	1    8100 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicro_Test_Points:TP_SMD1MM TP?
+U 1 1 5D79AEFF
+P 8100 5250
+F 0 "TP?" V 8100 5150 50  0000 C CNN
+F 1 "TP_SMD1MM" H 8100 5150 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 8300 5450 60  0001 L CNN
+F 3 "" H 8300 5550 60  0001 L CNN
+	1    8100 5250
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicro_Test_Points:TP_SMD1MM TP?
+U 1 1 5D79AF73
+P 8100 5350
+F 0 "TP?" V 8100 5250 50  0000 C CNN
+F 1 "TP_SMD1MM" H 8100 5250 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 8300 5550 60  0001 L CNN
+F 3 "" H 8300 5650 60  0001 L CNN
+	1    8100 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicro_Test_Points:TP_SMD1MM TP?
+U 1 1 5D79AFE9
+P 8100 5450
+F 0 "TP?" V 8100 5350 50  0000 C CNN
+F 1 "TP_SMD1MM" H 8100 5350 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 8300 5650 60  0001 L CNN
+F 3 "" H 8300 5750 60  0001 L CNN
+	1    8100 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicro_Test_Points:TP_SMD1MM TP?
+U 1 1 5D79B061
+P 8100 5550
+F 0 "TP?" V 8100 5450 50  0000 C CNN
+F 1 "TP_SMD1MM" H 8100 5450 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 8300 5750 60  0001 L CNN
+F 3 "" H 8300 5850 60  0001 L CNN
+	1    8100 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicro_Test_Points:TP_SMD1MM TP?
+U 1 1 5D79B146
+P 8100 4250
+F 0 "TP?" V 8100 4150 50  0000 C CNN
+F 1 "TP_SMD1MM" H 8100 4150 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 8300 4450 60  0001 L CNN
+F 3 "" H 8300 4550 60  0001 L CNN
+	1    8100 4250
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
