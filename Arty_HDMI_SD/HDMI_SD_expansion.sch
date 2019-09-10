@@ -965,7 +965,7 @@ Wire Wire Line
 Wire Wire Line
 	7650 4600 7650 4550
 Wire Wire Line
-	6300 4450 7650 4450
+	6300 4450 6950 4450
 Wire Wire Line
 	6300 4550 6650 4550
 $Comp
@@ -1007,48 +1007,16 @@ F 3 "" H 7550 6300 50  0001 C CNN
 	1    7550 6300
 	1    0    0    -1  
 $EndComp
-$Comp
-L antmicro_TVS_Diodes:PGB1010603MR D1
-U 1 1 5D80FC7F
-P 6650 4900
-F 0 "D1" H 6550 5000 60  0000 C CNN
-F 1 "PGB1010603MR" H 6600 4800 60  0000 C CNN
-F 2 "antmicro-footprints:0603" H 6850 5100 60  0001 L CNN
-F 3 "https://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf" H 6850 5200 60  0001 L CNN
-F 4 "Littelfuse Inc." H 6850 6000 60  0001 L CNN "Manufacturer"
-F 5 "PGB1010603MR" H 6850 5400 60  0001 L CNN "MPN"
-	1    6650 4900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L antmicro_TVS_Diodes:PGB1010603MR D2
-U 1 1 5D80FCE5
-P 6950 4850
-F 0 "D2" H 6750 4950 60  0000 C CNN
-F 1 "PGB1010603MR" H 6850 4750 60  0000 C CNN
-F 2 "antmicro-footprints:0603" H 7150 5050 60  0001 L CNN
-F 3 "https://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf" H 7150 5150 60  0001 L CNN
-F 4 "Littelfuse Inc." H 7150 5950 60  0001 L CNN "Manufacturer"
-F 5 "PGB1010603MR" H 7150 5350 60  0001 L CNN "MPN"
-	1    6950 4850
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	6650 4550 6650 4700
 Connection ~ 6650 4550
-Wire Wire Line
-	6650 4550 6950 4550
-Wire Wire Line
-	6950 4650 6950 4550
-Connection ~ 6950 4550
-Wire Wire Line
-	6950 4550 7650 4550
+Connection ~ 6950 4450
 Wire Wire Line
 	6650 5100 6650 5350
 Wire Wire Line
 	6650 5350 6950 5350
 Wire Wire Line
-	6950 5350 6950 5050
+	6950 5350 6950 5100
 Wire Wire Line
 	6650 5350 6650 5850
 Connection ~ 6650 5350
@@ -1369,19 +1337,6 @@ F 6 "100n" H 6950 3850 50  0000 L CNN "Val"
 	1    6950 3950
 	1    0    0    -1  
 $EndComp
-$Comp
-L antmicro_Ferrite_Beads_and_Chips:BLM21PG221SN1D FB2
-U 1 1 5DBC677D
-P 7300 3750
-F 0 "FB2" H 7300 4037 60  0000 C CNN
-F 1 "BLM21PG221SN1D" H 7300 3931 60  0000 C CNN
-F 2 "antmicro-footprints:0805" H 7500 3950 60  0001 L CNN
-F 3 "https://www.murata.com/en-us/products/en-us/products/productdata/8796738977822/ENFA0005.pdf" H 7500 4050 60  0001 L CNN
-F 4 "BLM21PG221SN1D" H 7500 4250 60  0001 L CNN "MPN"
-F 5 "Murata Electronics North America" H 7500 4850 60  0001 L CNN "Manufacturer"
-	1    7300 3750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6300 4350 6300 3750
 Wire Wire Line
@@ -1398,14 +1353,10 @@ F 3 "" H 7800 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7500 3750 7800 3750
-Wire Wire Line
 	7800 3750 7800 3450
 Wire Wire Line
 	6950 3800 6950 3750
 Connection ~ 6950 3750
-Wire Wire Line
-	6950 3750 7100 3750
 $Comp
 L power:GND #PWR0118
 U 1 1 5DBF4EF0
@@ -1549,8 +1500,6 @@ GPX_USB
 Text Label 2000 2500 0    50   ~ 0
 RST_USB
 Wire Wire Line
-	6450 4650 6450 5250
-Wire Wire Line
 	8800 4250 8200 4250
 Connection ~ 8800 4250
 Text Label 8200 4250 0    50   ~ 0
@@ -1634,4 +1583,42 @@ F 3 "" H 8300 4550 60  0001 L CNN
 	1    8100 4250
 	0    1    1    0   
 $EndComp
+$Comp
+L antmicro_TVS_Diodes:PGB1010603MR D1
+U 1 1 5D78B2C1
+P 6650 4900
+F 0 "D1" H 6500 5000 60  0000 L CNN
+F 1 "PGB1010603MR" H 6250 4800 60  0000 L CNN
+F 2 "antmicro-footprints:PGB1010603MR" H 6850 5100 60  0001 L CNN
+F 3 "https://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf" H 6850 5200 60  0001 L CNN
+F 4 "Littelfuse Inc." H 6850 6000 60  0001 L CNN "Manufacturer"
+F 5 "PGB1010603MR" H 6850 5400 60  0001 L CNN "MPN"
+	1    6650 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6450 4650 6450 5250
+$Comp
+L antmicro_TVS_Diodes:PGB1010603MR D2
+U 1 1 5D7BDFD2
+P 6950 4900
+F 0 "D2" H 6800 5000 60  0000 L CNN
+F 1 "PGB1010603MR" H 6550 4800 60  0000 L CNN
+F 2 "antmicro-footprints:PGB1010603MR" H 7150 5100 60  0001 L CNN
+F 3 "https://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf" H 7150 5200 60  0001 L CNN
+F 4 "Littelfuse Inc." H 7150 6000 60  0001 L CNN "Manufacturer"
+F 5 "PGB1010603MR" H 7150 5400 60  0001 L CNN "MPN"
+	1    6950 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6950 3750 7800 3750
+Wire Wire Line
+	6950 4700 6950 4550
+Wire Wire Line
+	6950 4450 7650 4450
+Wire Wire Line
+	6950 4550 6950 4450
+Wire Wire Line
+	6650 4550 7650 4550
 $EndSCHEMATC
