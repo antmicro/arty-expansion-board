@@ -169,6 +169,18 @@ X GPOUT5 9 500 300 100 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
+# antmicro_Mechanical_Parts_antmicro_logo
+#
+DEF antmicro_Mechanical_Parts_antmicro_logo N 0 40 Y Y 1 F N
+F0 "N" 0 350 50 H V C CNN
+F1 "antmicro_Mechanical_Parts_antmicro_logo" 0 -200 50 H V C CNN
+F2 "antmicro-footprints:antmicro-logo" -100 250 50 H I C CNN
+F3 "" 0 350 50 H I C CNN
+DRAW
+T 0 50 50 197 0 0 0 antmicro Normal 1 C C
+ENDDRAW
+ENDDEF
+#
 # antmicro_Memory_Connectors_PC_Card_Sockets_1140084168
 #
 DEF antmicro_Memory_Connectors_PC_Card_Sockets_1140084168 J 0 40 Y Y 1 F N

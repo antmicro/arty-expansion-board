@@ -15,108 +15,79 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	9300 1250 8750 1250
+	9050 1500 8500 1500
 Wire Wire Line
-	9300 1350 8750 1350
+	9050 1600 8500 1600
 Wire Wire Line
-	10100 1450 10700 1450
+	9850 1700 10450 1700
 Wire Wire Line
-	9300 1550 8750 1550
+	9050 1800 8500 1800
 Wire Wire Line
-	10100 1850 10700 1850
+	9850 2100 10450 2100
 Wire Wire Line
-	10100 1350 10700 1350
-Wire Wire Line
-	9300 1850 8750 1850
-Wire Wire Line
-	9300 1950 8750 1950
-Wire Wire Line
-	10100 2050 10700 2050
-Wire Wire Line
-	10700 1950 10100 1950
-Text Label 8750 1250 0    50   ~ 0
+	9850 1600 10450 1600
+Text Label 8500 1500 0    50   ~ 0
 C_TDMS_D2_P
-Text Label 8750 1350 0    50   ~ 0
+Text Label 8500 1600 0    50   ~ 0
 C_TDMS_D2_N
-Text Label 10700 1450 2    50   ~ 0
+Text Label 10450 1700 2    50   ~ 0
 C_TDMS_D1_P
 Wire Wire Line
-	10100 1550 10700 1550
-Text Label 10700 1550 2    50   ~ 0
+	9850 1800 10450 1800
+Text Label 10450 1800 2    50   ~ 0
 C_TDMS_D1_N
-Text Label 8750 1550 0    50   ~ 0
+Text Label 8500 1800 0    50   ~ 0
 C_TDMS_D0_P
-Text Label 8750 1650 0    50   ~ 0
+Text Label 8500 1900 0    50   ~ 0
 C_TDMS_D0_N
-Text Label 10700 1750 2    50   ~ 0
+Text Label 10450 2000 2    50   ~ 0
 C_TDMS_CLK_P
-Text Label 10700 1850 2    50   ~ 0
+Text Label 10450 2100 2    50   ~ 0
 C_TDMS_CLK_N
-Text Label 10700 1350 2    50   ~ 0
+Text Label 10450 1600 2    50   ~ 0
 GND
-Text Label 8750 1850 0    50   ~ 0
-NC
-Text Label 8750 1950 0    50   ~ 0
-NC
 $Comp
 L power:GND #PWR0101
 U 1 1 5D608454
-P 9400 2800
-F 0 "#PWR0101" H 9400 2550 50  0001 C CNN
-F 1 "GND" H 9405 2627 50  0000 C CNN
-F 2 "" H 9400 2800 50  0001 C CNN
-F 3 "" H 9400 2800 50  0001 C CNN
-	1    9400 2800
+P 9150 3050
+F 0 "#PWR0101" H 9150 2800 50  0001 C CNN
+F 1 "GND" H 9155 2877 50  0000 C CNN
+F 2 "" H 9150 3050 50  0001 C CNN
+F 3 "" H 9150 3050 50  0001 C CNN
+	1    9150 3050
 	1    0    0    -1  
 $EndComp
-Text Label 10700 2050 2    50   ~ 0
-NC
-Text Label 10700 1950 2    50   ~ 0
-NC
-$Comp
-L antmicro_Rectangular_Connectors_Headers_Male_Pins:0015912120 J3
-U 1 1 5D60CB7D
-P 3950 1300
-F 0 "J3" H 3950 1747 60  0000 C CNN
-F 1 "0015912120" H 3950 1641 60  0000 C CNN
-F 2 "antmicro-footprints:PinHeader_6x2_P2.54mm_Horizontal_Mirrored" H 4150 1500 60  0001 L CNN
-F 3 "https://www.molex.com/pdm_docs/sd/015912120_sd.pdf" H 4150 1600 60  0001 L CNN
-F 4 "0015912120" H 4150 1800 60  0001 L CNN "MPN"
-F 5 "Molex" H 4150 2400 60  0001 L CNN "Manufacturer"
-	1    3950 1300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3750 1100 3200 1100
-Wire Wire Line
-	3750 1200 3200 1200
-Wire Wire Line
-	3750 1300 3200 1300
-Text Label 3200 1100 0    50   ~ 0
-TDMS_D2_P
-Text Label 3200 1200 0    50   ~ 0
-TDMS_D2_N
-Text Label 3200 1300 0    50   ~ 0
-TDMS_CLK_P
-Wire Wire Line
-	3750 1400 3200 1400
-Text Label 3200 1400 0    50   ~ 0
-TDMS_CLK_N
-Wire Wire Line
-	4150 1300 4700 1300
-Text Label 4700 1300 2    50   ~ 0
-TDMS_D1_P
-Wire Wire Line
-	4150 1400 4700 1400
-Text Label 4700 1400 2    50   ~ 0
-TDMS_D1_N
 Wire Wire Line
 	4150 1100 4700 1100
 Wire Wire Line
 	4150 1200 4700 1200
+Wire Wire Line
+	4150 1300 4700 1300
 Text Label 4700 1100 2    50   ~ 0
-TDMS_D0_P
+TDMS_D2_P
 Text Label 4700 1200 2    50   ~ 0
+TDMS_D2_N
+Text Label 4700 1300 2    50   ~ 0
+TDMS_CLK_P
+Wire Wire Line
+	4150 1400 4700 1400
+Text Label 4700 1400 2    50   ~ 0
+TDMS_CLK_N
+Wire Wire Line
+	3750 1300 3200 1300
+Text Label 3200 1300 0    50   ~ 0
+TDMS_D1_P
+Wire Wire Line
+	3750 1400 3200 1400
+Text Label 3200 1400 0    50   ~ 0
+TDMS_D1_N
+Wire Wire Line
+	3750 1100 3200 1100
+Wire Wire Line
+	3750 1200 3200 1200
+Text Label 3200 1100 0    50   ~ 0
+TDMS_D0_P
+Text Label 3200 1200 0    50   ~ 0
 TDMS_D0_N
 Wire Wire Line
 	4950 1600 4950 1000
@@ -145,19 +116,6 @@ Text Label 4700 1500 2    50   ~ 0
 GND
 Text Label 3200 1600 0    50   ~ 0
 +3V3
-$Comp
-L antmicro_Rectangular_Connectors_Headers_Male_Pins:0015912120 J1
-U 1 1 5D618F18
-P 1550 1300
-F 0 "J1" H 1550 1747 60  0000 C CNN
-F 1 "0015912120" H 1550 1641 60  0000 C CNN
-F 2 "antmicro-footprints:PinHeader_6x2_P2.54mm_Horizontal_Mirrored" H 1750 1500 60  0001 L CNN
-F 3 "https://www.molex.com/pdm_docs/sd/015912120_sd.pdf" H 1750 1600 60  0001 L CNN
-F 4 "0015912120" H 1750 1800 60  0001 L CNN "MPN"
-F 5 "Molex" H 1750 2400 60  0001 L CNN "Manufacturer"
-	1    1550 1300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1350 1100 800  1100
 Wire Wire Line
@@ -267,47 +225,43 @@ $EndComp
 $Comp
 L antmicro_USB_DVI_HDMI_Connectors:2000-1-2-41-00-BK J4
 U 1 1 5D6CFFFB
-P 9700 1750
-F 0 "J4" H 9700 2687 60  0000 C CNN
-F 1 "2000-1-2-41-00-BK" H 9700 2581 60  0000 C CNN
-F 2 "antmicro-footprints:HDMI_A_Female_2000-1-2-41-00-BK" H 9900 1950 60  0001 L CNN
-F 3 "http://www.cnctech.us/pdfs/2000-1-2-41-00-BK.pdf" H 9900 2050 60  0001 L CNN
-F 4 "2000-1-2-41-00-BK" H 9900 2250 60  0001 L CNN "MPN"
-F 5 "CNC Tech" H 9900 2850 60  0001 L CNN "Manufacturer"
-	1    9700 1750
+P 9450 2000
+F 0 "J4" H 9450 2937 60  0000 C CNN
+F 1 "2000-1-2-41-00-BK" H 9450 2831 60  0000 C CNN
+F 2 "antmicro-footprints:HDMI_A_Female_2000-1-2-41-00-BK" H 9650 2200 60  0001 L CNN
+F 3 "http://www.cnctech.us/pdfs/2000-1-2-41-00-BK.pdf" H 9650 2300 60  0001 L CNN
+F 4 "2000-1-2-41-00-BK" H 9650 2500 60  0001 L CNN "MPN"
+F 5 "CNC Tech" H 9650 3100 60  0001 L CNN "Manufacturer"
+	1    9450 2000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8750 1650 9300 1650
+	8500 1900 9050 1900
 Wire Wire Line
-	9300 1450 8750 1450
-Text Label 8750 1450 0    50   ~ 0
+	9050 1700 8500 1700
+Text Label 8500 1700 0    50   ~ 0
 GND
 Wire Wire Line
-	10700 1750 10100 1750
+	10450 2000 9850 2000
 Wire Wire Line
-	10100 1650 10700 1650
-Text Label 10700 1650 2    50   ~ 0
+	9850 1900 10450 1900
+Text Label 10450 1900 2    50   ~ 0
 GND
 Wire Wire Line
-	9300 1750 8750 1750
-Text Label 8750 1750 0    50   ~ 0
+	9050 2000 8500 2000
+Text Label 8500 2000 0    50   ~ 0
 GND
 Wire Wire Line
-	9400 2550 9400 2800
+	9150 2800 9150 3050
 Wire Wire Line
-	9300 2050 8750 2050
-Text Label 8750 2050 0    50   ~ 0
+	9050 2300 8500 2300
+Text Label 8500 2300 0    50   ~ 0
 GND
-Wire Wire Line
-	9300 2150 8750 2150
-Text Label 8750 2150 0    50   ~ 0
-NC
 Text Notes 600  750  0    98   ~ 0
 SD_CON_#1
 Text Notes 2900 750  0    98   ~ 0
 HDMI_CON_#2
-Text Notes 8500 750  0    98   ~ 0
+Text Notes 8350 900  0    98   ~ 0
 HDMI_INTERFACE
 Text Notes 650  4800 0    98   ~ 0
 SD_CARD_SLOT
@@ -332,10 +286,6 @@ F 3 "" H 4950 1000 50  0001 C CNN
 	1    4950 1000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10100 2150 10700 2150
-Text Label 10700 2150 2    50   ~ 0
-NC
 Wire Wire Line
 	3600 6400 3900 6400
 Wire Wire Line
@@ -1405,19 +1355,6 @@ F 3 "" H 8100 2150 60  0001 L CNN
 $EndComp
 Wire Wire Line
 	6000 2300 6000 2400
-$Comp
-L antmicro_Rectangular_Connectors_Headers_Male_Pins:0015912120 J6
-U 1 1 5DC8649C
-P 1600 2600
-F 0 "J6" H 1600 3047 60  0000 C CNN
-F 1 "0015912120" H 1600 2941 60  0000 C CNN
-F 2 "antmicro-footprints:PinHeader_6x2_P2.54mm_Horizontal_Mirrored" H 1800 2800 60  0001 L CNN
-F 3 "https://www.molex.com/pdm_docs/sd/015912120_sd.pdf" H 1800 2900 60  0001 L CNN
-F 4 "0015912120" H 1800 3100 60  0001 L CNN "MPN"
-F 5 "Molex" H 1800 3700 60  0001 L CNN "Manufacturer"
-	1    1600 2600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1400 2400 850  2400
 Wire Wire Line
@@ -1460,8 +1397,6 @@ Wire Wire Line
 	1800 2900 2350 2900
 Text Notes 600  2000 0    98   ~ 0
 USB_CON_#3
-Text Notes 5100 500  0    197  ~ 0
-?
 Text Notes 5550 800  0    118  ~ 0
 DC-DC Step UP
 $Comp
@@ -1497,8 +1432,6 @@ Wire Wire Line
 	6650 5850 7250 5850
 Text Label 2000 2400 0    50   ~ 0
 GPX_USB
-Text Label 2000 2500 0    50   ~ 0
-RST_USB
 Wire Wire Line
 	8800 4250 8200 4250
 Connection ~ 8800 4250
@@ -1621,4 +1554,64 @@ Wire Wire Line
 	6950 4550 6950 4450
 Wire Wire Line
 	6650 4550 7650 4550
+Text Label 2000 2500 0    50   ~ 0
+RST_USB
+$Comp
+L antmicro_Rectangular_Connectors_Headers_Male_Pins:0015912120 J3
+U 1 1 5D60CB7D
+P 3950 1300
+F 0 "J3" H 3950 1747 60  0000 C CNN
+F 1 "0015912120" H 3950 1641 60  0000 C CNN
+F 2 "antmicro-footprints:PinHeader_6x2_P2.54mm_Horizontal_Mirrored" H 4150 1500 60  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/015912120_sd.pdf" H 4150 1600 60  0001 L CNN
+F 4 "0015912120" H 4150 1800 60  0001 L CNN "MPN"
+F 5 "Molex" H 4150 2400 60  0001 L CNN "Manufacturer"
+	1    3950 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicro_Rectangular_Connectors_Headers_Male_Pins:0015912120 J6
+U 1 1 5DC8649C
+P 1600 2600
+F 0 "J6" H 1600 3047 60  0000 C CNN
+F 1 "0015912120" H 1600 2941 60  0000 C CNN
+F 2 "antmicro-footprints:PinHeader_6x2_P2.54mm_Horizontal_Mirrored" H 1800 2800 60  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/015912120_sd.pdf" H 1800 2900 60  0001 L CNN
+F 4 "0015912120" H 1800 3100 60  0001 L CNN "MPN"
+F 5 "Molex" H 1800 3700 60  0001 L CNN "Manufacturer"
+	1    1600 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicro_Rectangular_Connectors_Headers_Male_Pins:0015912120 J1
+U 1 1 5D618F18
+P 1550 1300
+F 0 "J1" H 1550 1747 60  0000 C CNN
+F 1 "0015912120" H 1550 1641 60  0000 C CNN
+F 2 "antmicro-footprints:PinHeader_6x2_P2.54mm_Horizontal_Mirrored" H 1750 1500 60  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/015912120_sd.pdf" H 1750 1600 60  0001 L CNN
+F 4 "0015912120" H 1750 1800 60  0001 L CNN "MPN"
+F 5 "Molex" H 1750 2400 60  0001 L CNN "Manufacturer"
+	1    1550 1300
+	1    0    0    -1  
+$EndComp
+Text Label 8600 4600 0    50   ~ 0
+D+
+Text Label 8600 4400 0    50   ~ 0
+D-
+Text Label 7300 4450 0    50   ~ 0
+Data-
+Text Label 7300 4550 0    50   ~ 0
+Data+
+$Comp
+L antmicro_Mechanical_Parts:antmicro_logo N1
+U 1 1 5D84596D
+P 10450 750
+F 0 "N1" H 10850 600 50  0000 C CNN
+F 1 "antmicro_logo" H 10500 600 50  0000 C CNN
+F 2 "antmicro-footprints:antmicro-logo_scaled_30mm" H 10350 1000 50  0001 C CNN
+F 3 "" H 10450 1100 50  0001 C CNN
+	1    10450 750 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
