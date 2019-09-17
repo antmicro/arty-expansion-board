@@ -1619,14 +1619,79 @@ Wire Wire Line
 Wire Wire Line
 	6125 3600 5750 3600
 $Comp
-L power:GND #PWR?
+L power:GND #PWR01
 U 1 1 5D90A22E
 P 5750 3750
-F 0 "#PWR?" H 5750 3500 50  0001 C CNN
+F 0 "#PWR01" H 5750 3500 50  0001 C CNN
 F 1 "GND" H 5755 3577 50  0000 C CNN
 F 2 "" H 5750 3750 50  0001 C CNN
 F 3 "" H 5750 3750 50  0001 C CNN
 	1    5750 3750
 	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 2100 8500 2100
+Wire Wire Line
+	9050 2200 8500 2200
+Wire Wire Line
+	9850 2300 10450 2300
+Wire Wire Line
+	9850 2400 10450 2400
+Wire Wire Line
+	9050 2400 8500 2400
+$Comp
+L antmicro_Test_Points:TP_SMD1MM TP11
+U 1 1 5D86FB45
+P 8400 2100
+F 0 "TP11" V 8400 2000 50  0000 C CNN
+F 1 "TP_SMD1MM" H 8400 2000 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 8600 2300 60  0001 L CNN
+F 3 "" H 8600 2400 60  0001 L CNN
+	1    8400 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicro_Test_Points:TP_SMD1MM TP12
+U 1 1 5D86FCBB
+P 8400 2200
+F 0 "TP12" V 8400 2100 50  0000 C CNN
+F 1 "TP_SMD1MM" H 8400 2100 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 8600 2400 60  0001 L CNN
+F 3 "" H 8600 2500 60  0001 L CNN
+	1    8400 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicro_Test_Points:TP_SMD1MM TP13
+U 1 1 5D86FD3B
+P 8400 2400
+F 0 "TP13" V 8400 2300 50  0000 C CNN
+F 1 "TP_SMD1MM" H 8400 2300 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 8600 2600 60  0001 L CNN
+F 3 "" H 8600 2700 60  0001 L CNN
+	1    8400 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicro_Test_Points:TP_SMD1MM TP15
+U 1 1 5D86FDC5
+P 10550 2400
+F 0 "TP15" V 10550 2300 50  0000 C CNN
+F 1 "TP_SMD1MM" H 10550 2300 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 10750 2600 60  0001 L CNN
+F 3 "" H 10750 2700 60  0001 L CNN
+	1    10550 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L antmicro_Test_Points:TP_SMD1MM TP14
+U 1 1 5D86FF1F
+P 10550 2300
+F 0 "TP14" V 10550 2200 50  0000 C CNN
+F 1 "TP_SMD1MM" H 10550 2200 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 10750 2500 60  0001 L CNN
+F 3 "" H 10750 2600 60  0001 L CNN
+	1    10550 2300
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
