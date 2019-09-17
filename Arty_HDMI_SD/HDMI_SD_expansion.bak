@@ -1397,8 +1397,6 @@ Wire Wire Line
 	1800 2900 2350 2900
 Text Notes 600  2000 0    98   ~ 0
 USB_CON_#3
-Text Notes 5100 500  0    197  ~ 0
-?
 Text Notes 5550 800  0    118  ~ 0
 DC-DC Step UP
 $Comp
@@ -1556,15 +1554,13 @@ Wire Wire Line
 	6950 4550 6950 4450
 Wire Wire Line
 	6650 4550 7650 4550
-Entry Wire Line
-	3900 450  4000 550 
 Text Label 2000 2500 0    50   ~ 0
 RST_USB
 $Comp
-L antmicro_Rectangular_Connectors_Headers_Male_Pins:0015912120 J3
+L antmicro_Rectangular_Connectors_Headers_Male_Pins:0015912120 JC
 U 1 1 5D60CB7D
 P 3950 1300
-F 0 "J3" H 3950 1747 60  0000 C CNN
+F 0 "JC" H 3950 1747 60  0000 C CNN
 F 1 "0015912120" H 3950 1641 60  0000 C CNN
 F 2 "antmicro-footprints:PinHeader_6x2_P2.54mm_Horizontal_Mirrored" H 4150 1500 60  0001 L CNN
 F 3 "https://www.molex.com/pdm_docs/sd/015912120_sd.pdf" H 4150 1600 60  0001 L CNN
@@ -1574,10 +1570,10 @@ F 5 "Molex" H 4150 2400 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Rectangular_Connectors_Headers_Male_Pins:0015912120 J6
+L antmicro_Rectangular_Connectors_Headers_Male_Pins:0015912120 JB
 U 1 1 5DC8649C
 P 1600 2600
-F 0 "J6" H 1600 3047 60  0000 C CNN
+F 0 "JB" H 1600 3047 60  0000 C CNN
 F 1 "0015912120" H 1600 2941 60  0000 C CNN
 F 2 "antmicro-footprints:PinHeader_6x2_P2.54mm_Horizontal_Mirrored" H 1800 2800 60  0001 L CNN
 F 3 "https://www.molex.com/pdm_docs/sd/015912120_sd.pdf" H 1800 2900 60  0001 L CNN
@@ -1587,10 +1583,10 @@ F 5 "Molex" H 1800 3700 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Rectangular_Connectors_Headers_Male_Pins:0015912120 J1
+L antmicro_Rectangular_Connectors_Headers_Male_Pins:0015912120 JD
 U 1 1 5D618F18
 P 1550 1300
-F 0 "J1" H 1550 1747 60  0000 C CNN
+F 0 "JD" H 1550 1747 60  0000 C CNN
 F 1 "0015912120" H 1550 1641 60  0000 C CNN
 F 2 "antmicro-footprints:PinHeader_6x2_P2.54mm_Horizontal_Mirrored" H 1750 1500 60  0001 L CNN
 F 3 "https://www.molex.com/pdm_docs/sd/015912120_sd.pdf" H 1750 1600 60  0001 L CNN
@@ -1608,10 +1604,10 @@ Data-
 Text Label 7300 4550 0    50   ~ 0
 Data+
 $Comp
-L antmicro_Mechanical_Parts:antmicro_logo N?
+L antmicro_Mechanical_Parts:antmicro_logo N1
 U 1 1 5D84596D
 P 10450 750
-F 0 "N?" H 10850 600 50  0000 C CNN
+F 0 "N1" H 10850 600 50  0000 C CNN
 F 1 "antmicro_logo" H 10500 600 50  0000 C CNN
 F 2 "antmicro-footprints:antmicro-logo_scaled_30mm" H 10350 1000 50  0001 C CNN
 F 3 "" H 10450 1100 50  0001 C CNN

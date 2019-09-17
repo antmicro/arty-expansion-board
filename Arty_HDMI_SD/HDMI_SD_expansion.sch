@@ -1378,8 +1378,6 @@ SCK_USB
 Wire Wire Line
 	1800 2600 2350 2600
 Wire Wire Line
-	2350 2700 1800 2700
-Wire Wire Line
 	850  2800 1400 2800
 Text Label 850  2800 0    50   ~ 0
 GND
@@ -1557,10 +1555,10 @@ Wire Wire Line
 Text Label 2000 2500 0    50   ~ 0
 RST_USB
 $Comp
-L antmicro_Rectangular_Connectors_Headers_Male_Pins:0015912120 J3
+L antmicro_Rectangular_Connectors_Headers_Male_Pins:0015912120 JC1
 U 1 1 5D60CB7D
 P 3950 1300
-F 0 "J3" H 3950 1747 60  0000 C CNN
+F 0 "JC1" H 3950 1747 60  0000 C CNN
 F 1 "0015912120" H 3950 1641 60  0000 C CNN
 F 2 "antmicro-footprints:PinHeader_6x2_P2.54mm_Horizontal_Mirrored" H 4150 1500 60  0001 L CNN
 F 3 "https://www.molex.com/pdm_docs/sd/015912120_sd.pdf" H 4150 1600 60  0001 L CNN
@@ -1570,10 +1568,10 @@ F 5 "Molex" H 4150 2400 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Rectangular_Connectors_Headers_Male_Pins:0015912120 J6
+L antmicro_Rectangular_Connectors_Headers_Male_Pins:0015912120 JB1
 U 1 1 5DC8649C
 P 1600 2600
-F 0 "J6" H 1600 3047 60  0000 C CNN
+F 0 "JB1" H 1600 3047 60  0000 C CNN
 F 1 "0015912120" H 1600 2941 60  0000 C CNN
 F 2 "antmicro-footprints:PinHeader_6x2_P2.54mm_Horizontal_Mirrored" H 1800 2800 60  0001 L CNN
 F 3 "https://www.molex.com/pdm_docs/sd/015912120_sd.pdf" H 1800 2900 60  0001 L CNN
@@ -1583,10 +1581,10 @@ F 5 "Molex" H 1800 3700 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Rectangular_Connectors_Headers_Male_Pins:0015912120 J1
+L antmicro_Rectangular_Connectors_Headers_Male_Pins:0015912120 JD1
 U 1 1 5D618F18
 P 1550 1300
-F 0 "J1" H 1550 1747 60  0000 C CNN
+F 0 "JD1" H 1550 1747 60  0000 C CNN
 F 1 "0015912120" H 1550 1641 60  0000 C CNN
 F 2 "antmicro-footprints:PinHeader_6x2_P2.54mm_Horizontal_Mirrored" H 1750 1500 60  0001 L CNN
 F 3 "https://www.molex.com/pdm_docs/sd/015912120_sd.pdf" H 1750 1600 60  0001 L CNN
