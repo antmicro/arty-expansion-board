@@ -223,7 +223,7 @@ F 3 "" H 3350 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_USB_DVI_HDMI_Connectors:2000-1-2-41-00-BK J4
+L HDMI_SD_expansion-rescue:2000-1-2-41-00-BK-antmicro_USB_DVI_HDMI_Connectors J4
 U 1 1 5D6CFFFB
 P 9450 2000
 F 0 "J4" H 9450 2937 60  0000 C CNN
@@ -343,181 +343,69 @@ Wire Wire Line
 Connection ~ 1950 6600
 Wire Wire Line
 	1950 6600 3900 6600
-$Comp
-L HDMI_SD_expansion-rescue:C_100n_0402_6V3-antmicro_Capacitors_0402 C2
-U 1 1 5D82C2CC
-P 3100 3150
-F 0 "C2" H 2950 3250 60  0000 L CNN
-F 1 "C_100n_0402_6V3" H 3100 3000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 3300 3350 60  0001 L CNN
-F 3 "" H 3100 3150 50  0001 C CNN
-F 4 "Walsin" H 3300 3550 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 3300 3450 60  0001 L CNN "MPN"
-F 6 "100n" H 3100 3050 50  0000 L CNN "Val"
-	1    3100 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L HDMI_SD_expansion-rescue:C_100n_0402_6V3-antmicro_Capacitors_0402 C3
-U 1 1 5D82C3D2
-P 3350 3150
-F 0 "C3" H 3200 3250 60  0000 L CNN
-F 1 "C_100n_0402_6V3" H 3350 3000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 3550 3350 60  0001 L CNN
-F 3 "" H 3350 3150 50  0001 C CNN
-F 4 "Walsin" H 3550 3550 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 3550 3450 60  0001 L CNN "MPN"
-F 6 "100n" H 3350 3050 50  0000 L CNN "Val"
-	1    3350 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L HDMI_SD_expansion-rescue:C_100n_0402_6V3-antmicro_Capacitors_0402 C4
-U 1 1 5D82FF3B
-P 3600 3150
-F 0 "C4" H 3450 3250 60  0000 L CNN
-F 1 "C_100n_0402_6V3" H 3600 3000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 3800 3350 60  0001 L CNN
-F 3 "" H 3600 3150 50  0001 C CNN
-F 4 "Walsin" H 3800 3550 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 3800 3450 60  0001 L CNN "MPN"
-F 6 "100n" H 3600 3050 50  0000 L CNN "Val"
-	1    3600 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L HDMI_SD_expansion-rescue:C_100n_0402_6V3-antmicro_Capacitors_0402 C5
-U 1 1 5D82FF7F
-P 3850 3150
-F 0 "C5" H 3700 3250 60  0000 L CNN
-F 1 "C_100n_0402_6V3" H 3850 3000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 4050 3350 60  0001 L CNN
-F 3 "" H 3850 3150 50  0001 C CNN
-F 4 "Walsin" H 4050 3550 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 4050 3450 60  0001 L CNN "MPN"
-F 6 "100n" H 3850 3050 50  0000 L CNN "Val"
-	1    3850 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L HDMI_SD_expansion-rescue:C_100n_0402_6V3-antmicro_Capacitors_0402 C6
-U 1 1 5D8300D9
-P 4100 3150
-F 0 "C6" H 3950 3250 60  0000 L CNN
-F 1 "C_100n_0402_6V3" H 4100 3000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 4300 3350 60  0001 L CNN
-F 3 "" H 4100 3150 50  0001 C CNN
-F 4 "Walsin" H 4300 3550 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 4300 3450 60  0001 L CNN "MPN"
-F 6 "100n" H 4100 3050 50  0000 L CNN "Val"
-	1    4100 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L HDMI_SD_expansion-rescue:C_100n_0402_6V3-antmicro_Capacitors_0402 C7
-U 1 1 5D8300E3
-P 4350 3150
-F 0 "C7" H 4200 3250 60  0000 L CNN
-F 1 "C_100n_0402_6V3" H 4350 3000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 4550 3350 60  0001 L CNN
-F 3 "" H 4350 3150 50  0001 C CNN
-F 4 "Walsin" H 4550 3550 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 4550 3450 60  0001 L CNN "MPN"
-F 6 "100n" H 4350 3050 50  0000 L CNN "Val"
-	1    4350 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L HDMI_SD_expansion-rescue:C_100n_0402_6V3-antmicro_Capacitors_0402 C8
-U 1 1 5D8300ED
-P 4600 3150
-F 0 "C8" H 4450 3250 60  0000 L CNN
-F 1 "C_100n_0402_6V3" H 4600 3000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 4800 3350 60  0001 L CNN
-F 3 "" H 4600 3150 50  0001 C CNN
-F 4 "Walsin" H 4800 3550 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 4800 3450 60  0001 L CNN "MPN"
-F 6 "100n" H 4600 3050 50  0000 L CNN "Val"
-	1    4600 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L HDMI_SD_expansion-rescue:C_100n_0402_6V3-antmicro_Capacitors_0402 C9
-U 1 1 5D8300F7
-P 4850 3150
-F 0 "C9" H 4700 3250 60  0000 L CNN
-F 1 "C_100n_0402_6V3" H 4850 3000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 5050 3350 60  0001 L CNN
-F 3 "" H 4850 3150 50  0001 C CNN
-F 4 "Walsin" H 5050 3550 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 5050 3450 60  0001 L CNN "MPN"
-F 6 "100n" H 4850 3050 50  0000 L CNN "Val"
-	1    4850 3150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	3600 3300 3600 3900
+	5100 3400 5100 4450
 Wire Wire Line
-	3850 3300 3850 3900
-Text Label 3600 3900 1    50   ~ 0
+	5350 3400 5350 4650
+Text Label 5100 5250 1    50   ~ 0
 C_TDMS_D2_P
-Text Label 3850 3900 1    50   ~ 0
+Text Label 5350 5250 1    50   ~ 0
 C_TDMS_D2_N
-Text Label 4600 3900 1    50   ~ 0
+Text Label 4150 5250 1    50   ~ 0
 C_TDMS_D0_P
-Text Label 4850 3900 1    50   ~ 0
+Text Label 4400 5250 1    50   ~ 0
 C_TDMS_D0_N
 Wire Wire Line
-	4850 3900 4850 3300
+	4400 5250 4400 3850
 Wire Wire Line
-	4100 3300 4100 3900
-Text Label 4100 3900 1    50   ~ 0
+	4650 3400 4650 4350
+Text Label 4650 5250 1    50   ~ 0
 C_TDMS_D1_P
 Wire Wire Line
-	4350 3300 4350 3900
-Text Label 4350 3900 1    50   ~ 0
+	4900 3400 4900 4150
+Text Label 4900 5250 1    50   ~ 0
 C_TDMS_D1_N
 Wire Wire Line
-	3350 3300 3350 3900
-Text Label 3100 3900 1    50   ~ 0
+	3900 3400 3900 3750
+Text Label 3650 5250 1    50   ~ 0
 C_TDMS_CLK_P
-Text Label 3350 3900 1    50   ~ 0
+Text Label 3900 5250 1    50   ~ 0
 C_TDMS_CLK_N
 Wire Wire Line
-	3100 3900 3100 3300
+	3650 5250 3650 3550
 Wire Wire Line
-	4600 3900 4600 3300
+	4150 5250 4150 4050
 Wire Wire Line
-	3600 3000 3600 2450
+	5100 3100 5100 2550
 Wire Wire Line
-	3850 3000 3850 2450
+	5350 3100 5350 2550
 Wire Wire Line
-	3100 3000 3100 2450
-Text Label 3600 2450 3    50   ~ 0
+	3650 3100 3650 2550
+Text Label 5100 2550 3    50   ~ 0
 TDMS_D2_P
-Text Label 3850 2450 3    50   ~ 0
+Text Label 5350 2550 3    50   ~ 0
 TDMS_D2_N
-Text Label 3100 2450 3    50   ~ 0
+Text Label 3650 2550 3    50   ~ 0
 TDMS_CLK_P
 Wire Wire Line
-	3350 3000 3350 2450
-Text Label 3350 2450 3    50   ~ 0
+	3900 3100 3900 2550
+Text Label 3900 2550 3    50   ~ 0
 TDMS_CLK_N
 Wire Wire Line
-	4100 3000 4100 2450
-Text Label 4100 2450 3    50   ~ 0
+	4650 3100 4650 2550
+Text Label 4650 2550 3    50   ~ 0
 TDMS_D1_P
 Wire Wire Line
-	4350 3000 4350 2450
-Text Label 4350 2450 3    50   ~ 0
+	4900 3100 4900 2550
+Text Label 4900 2550 3    50   ~ 0
 TDMS_D1_N
 Wire Wire Line
-	4600 3000 4600 2450
+	4150 3100 4150 2550
 Wire Wire Line
-	4850 3000 4850 2450
-Text Label 4600 2450 3    50   ~ 0
+	4400 3100 4400 2550
+Text Label 4150 2550 3    50   ~ 0
 TDMS_D0_P
-Text Label 4850 2450 3    50   ~ 0
+Text Label 4400 2550 3    50   ~ 0
 TDMS_D0_N
 Text Label 800  1500 0    50   ~ 0
 GND
@@ -534,7 +422,7 @@ Text Label 2300 1600 2    50   ~ 0
 Wire Wire Line
 	1750 1600 2300 1600
 $Comp
-L antmicro_Memory_Connectors_PC_Card_Sockets:1140084168 J2
+L HDMI_SD_expansion-rescue:1140084168-antmicro_Memory_Connectors_PC_Card_Sockets J2
 U 1 1 5D7B2684
 P 4400 6350
 F 0 "J2" H 4368 7247 50  0000 C CNN
@@ -561,7 +449,7 @@ F 6 "100n" H 3350 6950 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Resistors_0402:R_220R_0402 R12
+L HDMI_SD_expansion-rescue:R_220R_0402-antmicro_Resistors_0402 R12
 U 1 1 5D7FA94A
 P 2750 6800
 F 0 "R12" H 2750 6900 60  0000 C CNN
@@ -585,7 +473,7 @@ CD
 Wire Wire Line
 	3100 6800 2900 6800
 $Comp
-L antmicro_Resistors_0603:R_20k_0603 R2
+L HDMI_SD_expansion-rescue:R_20k_0603-antmicro_Resistors_0603 R2
 U 1 1 5D80F602
 P 1950 5450
 F 0 "R2" V 1800 5300 60  0000 L CNN
@@ -599,7 +487,7 @@ F 6 "20k" V 2100 5450 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicro_Resistors_0603:R_20k_0603 R1
+L HDMI_SD_expansion-rescue:R_20k_0603-antmicro_Resistors_0603 R1
 U 1 1 5D80F959
 P 1750 5450
 F 0 "R1" V 1600 5300 60  0000 L CNN
@@ -630,7 +518,7 @@ Connection ~ 3600 6800
 Wire Wire Line
 	3600 6800 3600 7450
 $Comp
-L antmicro_Resistors_0603:R_20k_0603 R3
+L HDMI_SD_expansion-rescue:R_20k_0603-antmicro_Resistors_0603 R3
 U 1 1 5D893D58
 P 2150 5450
 F 0 "R3" V 2000 5300 60  0000 L CNN
@@ -644,7 +532,7 @@ F 6 "20k" V 2300 5450 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicro_Resistors_0603:R_20k_0603 R4
+L HDMI_SD_expansion-rescue:R_20k_0603-antmicro_Resistors_0603 R4
 U 1 1 5D893D94
 P 2350 5450
 F 0 "R4" V 2200 5300 60  0000 L CNN
@@ -658,7 +546,7 @@ F 6 "20k" V 2500 5450 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicro_Resistors_0603:R_20k_0603 R5
+L HDMI_SD_expansion-rescue:R_20k_0603-antmicro_Resistors_0603 R5
 U 1 1 5D893DDA
 P 2550 5450
 F 0 "R5" V 2400 5300 60  0000 L CNN
@@ -672,7 +560,7 @@ F 6 "20k" V 2700 5450 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicro_Resistors_0603:R_20k_0603 R6
+L HDMI_SD_expansion-rescue:R_20k_0603-antmicro_Resistors_0603 R6
 U 1 1 5D893E1A
 P 2750 5450
 F 0 "R6" V 2600 5300 60  0000 L CNN
@@ -686,7 +574,7 @@ F 6 "20k" V 2900 5450 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicro_Resistors_0603:R_20k_0603 R7
+L HDMI_SD_expansion-rescue:R_20k_0603-antmicro_Resistors_0603 R7
 U 1 1 5D893E5C
 P 2950 5450
 F 0 "R7" V 2800 5300 60  0000 L CNN
@@ -724,7 +612,7 @@ Wire Wire Line
 Wire Wire Line
 	8250 5750 8250 5800
 $Comp
-L antmicro_Interface_Controllers:MAX3421EEHJ U2
+L HDMI_SD_expansion-rescue:MAX3421EEHJ-antmicro_Interface_Controllers U2
 U 1 1 5D7294CC
 P 9650 5050
 F 0 "U2" H 9200 6000 50  0000 C CNN
@@ -841,7 +729,7 @@ Wire Wire Line
 	8800 3850 9550 3850
 Connection ~ 9550 3850
 $Comp
-L antmicro_Resistors_0402:R_22R_0402 R9
+L HDMI_SD_expansion-rescue:R_22R_0402-antmicro_Resistors_0402 R9
 U 1 1 5D7A374A
 P 8300 4400
 F 0 "R9" H 8150 4500 60  0000 C CNN
@@ -855,7 +743,7 @@ F 6 "22R" H 8300 4400 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Resistors_0402:R_22R_0402 R10
+L HDMI_SD_expansion-rescue:R_22R_0402-antmicro_Resistors_0402 R10
 U 1 1 5D7A394F
 P 8300 4600
 F 0 "R10" H 8150 4700 60  0000 C CNN
@@ -881,7 +769,7 @@ Wire Wire Line
 Wire Wire Line
 	8800 4550 9050 4550
 $Comp
-L antmicro_USB_DVI_HDMI_Connectors:UE27AC54100 J5
+L HDMI_SD_expansion-rescue:UE27AC54100-antmicro_USB_DVI_HDMI_Connectors J5
 U 1 1 5D7BA5ED
 P 6000 4450
 F 0 "J5" H 6050 4850 60  0000 C CNN
@@ -919,7 +807,7 @@ Wire Wire Line
 Wire Wire Line
 	6300 4550 6650 4550
 $Comp
-L antmicro_Capacitors_0402:C_22p_0402 C16
+L HDMI_SD_expansion-rescue:C_22p_0402-antmicro_Capacitors_0402 C16
 U 1 1 5D80912A
 P 7250 5450
 F 0 "C16" H 7100 5550 60  0000 L CNN
@@ -933,7 +821,7 @@ F 6 "22p" H 7300 5300 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Capacitors_0402:C_22p_0402 C17
+L HDMI_SD_expansion-rescue:C_22p_0402-antmicro_Capacitors_0402 C17
 U 1 1 5D8092BC
 P 7800 5450
 F 0 "C17" H 7650 5550 60  0000 L CNN
@@ -1020,7 +908,7 @@ Connection ~ 7550 5200
 Wire Wire Line
 	7550 5200 7450 5200
 $Comp
-L antmicro_DC_DC_Converters:TPS61232DRCT U1
+L HDMI_SD_expansion-rescue:TPS61232DRCT-antmicro_DC_DC_Converters U1
 U 1 1 5D9331B1
 P 6700 1950
 F 0 "U1" H 6500 2600 50  0000 C CNN
@@ -1048,7 +936,7 @@ Wire Wire Line
 Wire Wire Line
 	7600 1750 7600 1650
 $Comp
-L antmicro_Resistors_0603:R_0R_0603 R8
+L HDMI_SD_expansion-rescue:R_0R_0603-antmicro_Resistors_0603 R8
 U 1 1 5D9466DD
 P 7600 1350
 F 0 "R8" V 7555 1420 60  0000 L CNN
@@ -1083,7 +971,7 @@ F 3 "" H 7300 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Capacitors_0603:C_22u_0603 C12
+L HDMI_SD_expansion-rescue:C_22u_0603-antmicro_Capacitors_0603 C12
 U 1 1 5D96CFC7
 P 7100 2100
 F 0 "C12" H 6950 2200 60  0000 L CNN
@@ -1097,7 +985,7 @@ F 6 "22u" H 7100 2000 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Capacitors_0603:C_22u_0603 C13
+L HDMI_SD_expansion-rescue:C_22u_0603-antmicro_Capacitors_0603 C13
 U 1 1 5D980C76
 P 7300 2100
 F 0 "C13" H 7150 2200 60  0000 L CNN
@@ -1111,7 +999,7 @@ F 6 "22u" H 7300 2000 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Capacitors_0603:C_22u_0603 C14
+L HDMI_SD_expansion-rescue:C_22u_0603-antmicro_Capacitors_0603 C14
 U 1 1 5D980CF2
 P 7500 2100
 F 0 "C14" H 7350 2200 60  0000 L CNN
@@ -1168,7 +1056,7 @@ F 3 "" H 5650 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Capacitors_0603:C_22u_0603 C10
+L HDMI_SD_expansion-rescue:C_22u_0603-antmicro_Capacitors_0603 C10
 U 1 1 5D9DF01F
 P 5650 2050
 F 0 "C10" H 5500 2150 60  0000 L CNN
@@ -1201,7 +1089,7 @@ Connection ~ 5650 1650
 Wire Wire Line
 	5650 1650 5650 1900
 $Comp
-L antmicro_Capacitors_0402:C_10n_0402 C11
+L HDMI_SD_expansion-rescue:C_10n_0402-antmicro_Capacitors_0402 C11
 U 1 1 5DA2425E
 P 6000 2050
 F 0 "C11" H 5850 2150 60  0000 L CNN
@@ -1236,7 +1124,7 @@ Connection ~ 6000 2300
 Wire Wire Line
 	6000 2200 6000 2300
 $Comp
-L antmicro_Fixed_Inductors:XFL4020-102MEB L1
+L HDMI_SD_expansion-rescue:XFL4020-102MEB-antmicro_Fixed_Inductors L1
 U 1 1 5DB6E11B
 P 6700 1100
 F 0 "L1" H 6700 880 60  0000 C CNN
@@ -1321,7 +1209,7 @@ $EndComp
 Wire Wire Line
 	6950 4200 6950 4100
 $Comp
-L antmicro_Test_Points:TP_SMD1MM TP1
+L HDMI_SD_expansion-rescue:TP_SMD1MM-antmicro_Test_Points TP1
 U 1 1 5DC35340
 P 5250 1550
 F 0 "TP1" V 5155 1595 50  0000 C CNN
@@ -1332,7 +1220,7 @@ F 3 "" H 5450 1850 60  0001 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicro_Test_Points:TP_SMD1MM TP2
+L HDMI_SD_expansion-rescue:TP_SMD1MM-antmicro_Test_Points TP2
 U 1 1 5DC35558
 P 5250 1850
 F 0 "TP2" V 5155 1895 50  0000 C CNN
@@ -1343,7 +1231,7 @@ F 3 "" H 5450 2150 60  0001 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicro_Test_Points:TP_SMD1MM TP3
+L HDMI_SD_expansion-rescue:TP_SMD1MM-antmicro_Test_Points TP3
 U 1 1 5DC355D8
 P 7900 1850
 F 0 "TP3" V 7950 1850 50  0000 R CNN
@@ -1398,7 +1286,7 @@ USB_CON_#3
 Text Notes 5550 800  0    118  ~ 0
 DC-DC Step UP
 $Comp
-L antmicro_Oscillators:KX-7_12,MHz Y1
+L HDMI_SD_expansion-rescue:KX-7_12,MHz-antmicro_Oscillators Y1
 U 1 1 5DD93739
 P 7450 4900
 F 0 "Y1" H 7641 4993 31  0000 L CNN
@@ -1410,10 +1298,8 @@ F 5 "Geyer Electronic" H 7641 4807 31  0000 L CNN "Manufacturer"
 	1    7450 4900
 	1    0    0    -1  
 $EndComp
-Text Notes 5000 2950 0    50   ~ 10
-caps will be replaced with 0R by default
 $Comp
-L antmicro_Resistors_0603:R_10k_0603 R11
+L HDMI_SD_expansion-rescue:R_10k_0603-antmicro_Resistors_0603 R11
 U 1 1 5D77F979
 P 8800 4050
 F 0 "R11" V 8755 4120 60  0000 L CNN
@@ -1438,7 +1324,7 @@ INT_USB
 Text Label 2350 2600 2    50   ~ 0
 INT_USB
 $Comp
-L antmicro_Test_Points:TP_SMD1MM TP5
+L HDMI_SD_expansion-rescue:TP_SMD1MM-antmicro_Test_Points TP5
 U 1 1 5D79AD74
 P 8100 5050
 F 0 "TP5" V 8100 4950 50  0000 C CNN
@@ -1449,7 +1335,7 @@ F 3 "" H 8300 5350 60  0001 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicro_Test_Points:TP_SMD1MM TP6
+L HDMI_SD_expansion-rescue:TP_SMD1MM-antmicro_Test_Points TP6
 U 1 1 5D79AE8D
 P 8100 5150
 F 0 "TP6" V 8100 5050 50  0000 C CNN
@@ -1460,7 +1346,7 @@ F 3 "" H 8300 5450 60  0001 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicro_Test_Points:TP_SMD1MM TP7
+L HDMI_SD_expansion-rescue:TP_SMD1MM-antmicro_Test_Points TP7
 U 1 1 5D79AEFF
 P 8100 5250
 F 0 "TP7" V 8100 5150 50  0000 C CNN
@@ -1471,7 +1357,7 @@ F 3 "" H 8300 5550 60  0001 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicro_Test_Points:TP_SMD1MM TP8
+L HDMI_SD_expansion-rescue:TP_SMD1MM-antmicro_Test_Points TP8
 U 1 1 5D79AF73
 P 8100 5350
 F 0 "TP8" V 8100 5250 50  0000 C CNN
@@ -1482,7 +1368,7 @@ F 3 "" H 8300 5650 60  0001 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicro_Test_Points:TP_SMD1MM TP9
+L HDMI_SD_expansion-rescue:TP_SMD1MM-antmicro_Test_Points TP9
 U 1 1 5D79AFE9
 P 8100 5450
 F 0 "TP9" V 8100 5350 50  0000 C CNN
@@ -1493,7 +1379,7 @@ F 3 "" H 8300 5750 60  0001 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicro_Test_Points:TP_SMD1MM TP10
+L HDMI_SD_expansion-rescue:TP_SMD1MM-antmicro_Test_Points TP10
 U 1 1 5D79B061
 P 8100 5550
 F 0 "TP10" V 8100 5450 50  0000 C CNN
@@ -1504,7 +1390,7 @@ F 3 "" H 8300 5850 60  0001 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicro_Test_Points:TP_SMD1MM TP4
+L HDMI_SD_expansion-rescue:TP_SMD1MM-antmicro_Test_Points TP4
 U 1 1 5D79B146
 P 8100 4250
 F 0 "TP4" V 8100 4150 50  0000 C CNN
@@ -1515,7 +1401,7 @@ F 3 "" H 8300 4550 60  0001 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicro_TVS_Diodes:PGB1010603MR D1
+L HDMI_SD_expansion-rescue:PGB1010603MR-antmicro_TVS_Diodes D1
 U 1 1 5D78B2C1
 P 6650 4900
 F 0 "D1" H 6500 5000 60  0000 L CNN
@@ -1530,7 +1416,7 @@ $EndComp
 Wire Wire Line
 	6450 4650 6450 5250
 $Comp
-L antmicro_TVS_Diodes:PGB1010603MR D2
+L HDMI_SD_expansion-rescue:PGB1010603MR-antmicro_TVS_Diodes D2
 U 1 1 5D7BDFD2
 P 6950 4900
 F 0 "D2" H 6800 5000 60  0000 L CNN
@@ -1555,7 +1441,7 @@ Wire Wire Line
 Text Label 2000 2500 0    50   ~ 0
 RST_USB
 $Comp
-L antmicro_Rectangular_Connectors_Headers_Male_Pins:0015912120 JC1
+L HDMI_SD_expansion-rescue:0015912120-antmicro_Rectangular_Connectors_Headers_Male_Pins JC1
 U 1 1 5D60CB7D
 P 3950 1300
 F 0 "JC1" H 3950 1747 60  0000 C CNN
@@ -1568,7 +1454,7 @@ F 5 "Molex" H 4150 2400 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Rectangular_Connectors_Headers_Male_Pins:0015912120 JB1
+L HDMI_SD_expansion-rescue:0015912120-antmicro_Rectangular_Connectors_Headers_Male_Pins JB1
 U 1 1 5DC8649C
 P 1600 2600
 F 0 "JB1" H 1600 3047 60  0000 C CNN
@@ -1581,7 +1467,7 @@ F 5 "Molex" H 1800 3700 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Rectangular_Connectors_Headers_Male_Pins:0015912120 JD1
+L HDMI_SD_expansion-rescue:0015912120-antmicro_Rectangular_Connectors_Headers_Male_Pins JD1
 U 1 1 5D618F18
 P 1550 1300
 F 0 "JD1" H 1550 1747 60  0000 C CNN
@@ -1602,7 +1488,7 @@ Data-
 Text Label 7300 4550 0    50   ~ 0
 Data+
 $Comp
-L antmicro_Mechanical_Parts:antmicro_logo N1
+L HDMI_SD_expansion-rescue:antmicro_logo-antmicro_Mechanical_Parts N1
 U 1 1 5D84596D
 P 10450 750
 F 0 "N1" H 10850 600 50  0000 C CNN
@@ -1640,7 +1526,7 @@ Wire Wire Line
 Wire Wire Line
 	9050 2400 8500 2400
 $Comp
-L antmicro_Test_Points:TP_SMD1MM TP11
+L HDMI_SD_expansion-rescue:TP_SMD1MM-antmicro_Test_Points TP11
 U 1 1 5D86FB45
 P 8400 2100
 F 0 "TP11" V 8400 2000 50  0000 C CNN
@@ -1651,7 +1537,7 @@ F 3 "" H 8600 2400 60  0001 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicro_Test_Points:TP_SMD1MM TP12
+L HDMI_SD_expansion-rescue:TP_SMD1MM-antmicro_Test_Points TP12
 U 1 1 5D86FCBB
 P 8400 2200
 F 0 "TP12" V 8400 2100 50  0000 C CNN
@@ -1662,7 +1548,7 @@ F 3 "" H 8600 2500 60  0001 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicro_Test_Points:TP_SMD1MM TP13
+L HDMI_SD_expansion-rescue:TP_SMD1MM-antmicro_Test_Points TP13
 U 1 1 5D86FD3B
 P 8400 2400
 F 0 "TP13" V 8400 2300 50  0000 C CNN
@@ -1673,7 +1559,7 @@ F 3 "" H 8600 2700 60  0001 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicro_Test_Points:TP_SMD1MM TP15
+L HDMI_SD_expansion-rescue:TP_SMD1MM-antmicro_Test_Points TP15
 U 1 1 5D86FDC5
 P 10550 2400
 F 0 "TP15" V 10550 2300 50  0000 C CNN
@@ -1684,7 +1570,7 @@ F 3 "" H 10750 2700 60  0001 L CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicro_Test_Points:TP_SMD1MM TP14
+L HDMI_SD_expansion-rescue:TP_SMD1MM-antmicro_Test_Points TP14
 U 1 1 5D86FF1F
 P 10550 2300
 F 0 "TP14" V 10550 2200 50  0000 C CNN
@@ -1694,4 +1580,205 @@ F 3 "" H 10750 2600 60  0001 L CNN
 	1    10550 2300
 	0    -1   -1   0   
 $EndComp
+$Comp
+L antmicroResistors0402:R_0R_0402 R13
+U 1 1 5D9FFAEA
+P 3650 3250
+F 0 "R13" V 3500 3100 60  0000 L CNN
+F 1 "R_0R_0402" H 3650 3100 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 3850 3450 60  0001 L CNN
+F 3 "" H 3650 3250 50  0001 C CNN
+F 4 "PANASONIC" H 3850 3650 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 3850 3550 60  0001 L CNN "MPN"
+F 6 "0R" V 3800 3250 50  0000 L CNN "Val"
+	1    3650 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroResistors0402:R_0R_0402 R14
+U 1 1 5DA003F3
+P 3900 3250
+F 0 "R14" V 3750 3100 60  0000 L CNN
+F 1 "R_0R_0402" H 3900 3100 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 4100 3450 60  0001 L CNN
+F 3 "" H 3900 3250 50  0001 C CNN
+F 4 "PANASONIC" H 4100 3650 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 4100 3550 60  0001 L CNN "MPN"
+F 6 "0R" V 4050 3250 50  0000 L CNN "Val"
+	1    3900 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroResistors0402:R_0R_0402 R15
+U 1 1 5DA00479
+P 5100 3250
+F 0 "R15" V 4950 3100 60  0000 L CNN
+F 1 "R_0R_0402" H 5100 3100 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 5300 3450 60  0001 L CNN
+F 3 "" H 5100 3250 50  0001 C CNN
+F 4 "PANASONIC" H 5300 3650 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 5300 3550 60  0001 L CNN "MPN"
+F 6 "0R" V 5250 3250 50  0000 L CNN "Val"
+	1    5100 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroResistors0402:R_0R_0402 R16
+U 1 1 5DA00501
+P 5350 3250
+F 0 "R16" V 5200 3100 60  0000 L CNN
+F 1 "R_0R_0402" H 5350 3100 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 5550 3450 60  0001 L CNN
+F 3 "" H 5350 3250 50  0001 C CNN
+F 4 "PANASONIC" H 5550 3650 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 5550 3550 60  0001 L CNN "MPN"
+F 6 "0R" V 5500 3250 50  0000 L CNN "Val"
+	1    5350 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroResistors0402:R_0R_0402 R17
+U 1 1 5DA0058F
+P 4650 3250
+F 0 "R17" V 4500 3100 60  0000 L CNN
+F 1 "R_0R_0402" H 4650 3100 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 4850 3450 60  0001 L CNN
+F 3 "" H 4650 3250 50  0001 C CNN
+F 4 "PANASONIC" H 4850 3650 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 4850 3550 60  0001 L CNN "MPN"
+F 6 "0R" V 4800 3250 50  0000 L CNN "Val"
+	1    4650 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroResistors0402:R_0R_0402 R18
+U 1 1 5DA0061F
+P 4900 3250
+F 0 "R18" V 4750 3100 60  0000 L CNN
+F 1 "R_0R_0402" H 4900 3100 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 5100 3450 60  0001 L CNN
+F 3 "" H 4900 3250 50  0001 C CNN
+F 4 "PANASONIC" H 5100 3650 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 5100 3550 60  0001 L CNN "MPN"
+F 6 "0R" V 5050 3250 50  0000 L CNN "Val"
+	1    4900 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroResistors0402:R_0R_0402 R19
+U 1 1 5DA006AD
+P 4150 3250
+F 0 "R19" V 4000 3100 60  0000 L CNN
+F 1 "R_0R_0402" H 4150 3100 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 4350 3450 60  0001 L CNN
+F 3 "" H 4150 3250 50  0001 C CNN
+F 4 "PANASONIC" H 4350 3650 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 4350 3550 60  0001 L CNN "MPN"
+F 6 "0R" V 4300 3250 50  0000 L CNN "Val"
+	1    4150 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroResistors0402:R_0R_0402 R20
+U 1 1 5DA0073D
+P 4400 3250
+F 0 "R20" V 4250 3100 60  0000 L CNN
+F 1 "R_0R_0402" H 4400 3100 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 4600 3450 60  0001 L CNN
+F 3 "" H 4400 3250 50  0001 C CNN
+F 4 "PANASONIC" H 4600 3650 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 4600 3550 60  0001 L CNN "MPN"
+F 6 "0R" V 4550 3250 50  0000 L CNN "Val"
+	1    4400 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroTVSDiodes:TPD8S009DSMR IC1
+U 1 1 5DA0382E
+P 2800 4400
+F 0 "IC1" H 2825 3103 50  0000 C CNN
+F 1 "TPD8S009DSMR" H 2825 3194 50  0000 C CNN
+F 2 "antmicro-footprints:R-PDSO-N15" H 4200 4050 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tpd8s009.pdf" H 4500 3950 50  0001 C CNN
+F 4 "TPD8S009DSMR" H 2825 3285 50  0000 C CNN "MPN"
+F 5 "Texas Instruments" H 2825 3376 50  0000 C CNN "Manufacturer"
+	1    2800 4400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3100 3550 3650 3550
+Connection ~ 3650 3550
+Wire Wire Line
+	3650 3550 3650 3400
+Wire Wire Line
+	3100 3750 3900 3750
+Connection ~ 3900 3750
+Wire Wire Line
+	3900 3750 3900 5250
+Wire Wire Line
+	3100 3850 4400 3850
+Connection ~ 4400 3850
+Wire Wire Line
+	4400 3850 4400 3400
+Wire Wire Line
+	3100 4050 4150 4050
+Connection ~ 4150 4050
+Wire Wire Line
+	4150 4050 4150 3400
+Wire Wire Line
+	3100 4150 4900 4150
+Connection ~ 4900 4150
+Wire Wire Line
+	4900 4150 4900 5250
+Wire Wire Line
+	3100 4350 4650 4350
+Connection ~ 4650 4350
+Wire Wire Line
+	4650 4350 4650 5250
+Wire Wire Line
+	3100 4450 5100 4450
+Connection ~ 5100 4450
+Wire Wire Line
+	5100 4450 5100 5250
+Wire Wire Line
+	3100 4650 5350 4650
+Connection ~ 5350 4650
+Wire Wire Line
+	5350 4650 5350 5250
+Wire Wire Line
+	2450 4400 2100 4400
+Wire Wire Line
+	2100 4400 2100 3800
+Wire Wire Line
+	2100 3800 2450 3800
+$Comp
+L power:+3V3 #PWR0119
+U 1 1 5E066EDD
+P 2100 3650
+F 0 "#PWR0119" H 2100 3500 50  0001 C CNN
+F 1 "+3V3" H 2115 3823 50  0000 C CNN
+F 2 "" H 2100 3650 50  0001 C CNN
+F 3 "" H 2100 3650 50  0001 C CNN
+	1    2100 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 3800 2100 3650
+Connection ~ 2100 3800
+Wire Wire Line
+	3450 3950 3100 3950
+Text Label 3450 3950 2    50   ~ 0
+GND
+Wire Wire Line
+	3450 3650 3100 3650
+Text Label 3450 3650 2    50   ~ 0
+GND
+Wire Wire Line
+	3450 4250 3100 4250
+Text Label 3450 4250 2    50   ~ 0
+GND
+Wire Wire Line
+	3450 4550 3100 4550
+Text Label 3450 4550 2    50   ~ 0
+GND
 $EndSCHEMATC

@@ -1162,7 +1162,7 @@
     (descr http://media.digikey.com/pdf/Data%20Sheets/CNC%20Tech%20PDFs/HDMI_A_Female_2000-1-2-41-00-BK_Dwg.pdf)
     (path /5D6CFFFB)
     (attr smd)
-    (fp_text reference J4 (at 10.079709 5.565259 180) (layer F.SilkS)
+    (fp_text reference J4 (at 8.7 6.15 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 2000-1-2-41-00-BK (at 0 7.05 90) (layer F.Fab)
