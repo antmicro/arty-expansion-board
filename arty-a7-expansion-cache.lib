@@ -485,7 +485,9 @@ DEF arty-a7-expansion_TPS61232DRCT U 0 40 Y Y 1 F N
 F0 "U" 0 -100 50 H V C CNN
 F1 "arty-a7-expansion_TPS61232DRCT" 0 -200 50 H V C CNN
 F2 "arty-a7-expansion-footprints:VSON-10-1EP_3x3mm" -100 -200 50 H I C CNN
-F3 "http://www.ti.com/lit/ds/symlink/tps61232.pdf" 0 -100 50 H I C CNN
+F3 "" 0 -100 50 H I C CNN
+F4 "Texas Instruments" 0 0 50 H V C CNN "Manufacturer"
+F5 "TPS61232DRCT" 0 0 50 H V C CNN "MPN"
 DRAW
 S -250 600 250 -50 0 1 0 f
 X SW 1 350 500 100 L 50 50 1 1 B
