@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name HDMI_SD_expansion)(type Legacy)(uri /home/jkrzyska/antmicro-arty-expansion-board/HDMI_SD_expansion/HDMI_SD_expansion.lib)(options "")(descr ""))
-  (lib (name HDMI_SD_expansion-rescue)(type Legacy)(uri ${KIPRJMOD}/HDMI_SD_expansion-rescue.lib)(options "")(descr ""))
-)
