@@ -1,10 +1,10 @@
-Arty HDMI and SD expansion board
-================================
+Arty A7 expansion board
+=======================
 
 .. figure:: img/expansion-board.png
 
-This repository contains open hardware design files for expansion board designed for Arty A7 development platform.
-This board is equipped with extra interfaces, expanding Arty's possibilities, connectible through Digilent Pmod connectors.
+This repository contains open hardware design files for expansion board compatible with Digilent `Arty A7 development platform <https://store.digilentinc.com/arty-a7-artix-7-fpga-development-board-for-makers-and-hobbyists/>`_.
+The expansion board utilized a set of PMOD connectors on Arty to provide additional IO interfaces.
 
 Key features
 ------------
@@ -12,7 +12,6 @@ Key features
 * HDMI connector
 * SD card connector
 * USB 2.0 host controller implemented with `MAX3421EEHJ <https://datasheets.maximintegrated.com/en/ds/MAX3421E.pdf>`_
-* 3x Digilent Pmod connectors
 
 Dimensions and layout
 ---------------------
