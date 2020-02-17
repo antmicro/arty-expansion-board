@@ -1,24 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 # 
-# C_22p_0402
-# 
-DEF C_22p_0402 C 0 0 Y Y 1 F N
-F0 "C" -55 135 60 H V L CNN
-F1 "C_22p_0402" 0 -150 60 H I C CNN
-F2 "arty-a7-expansion-footprints:0402-cap" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "YAGEO" 200 400 60 H I L CNN "Manufacturer"
-F5 "CC0402JRNPO9BN220" 200 300 60 H I L CNN "MPN"
-F6 "22p" 0 -100 50 H V C CNN "Val"
-DRAW
-P 2 1 1 20 -80 -30 80 -30 N
-P 2 1 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 0 0 1 1 P
-X ~ 2 0 -150 110 U 0 0 1 1 P
-ENDDRAW
-ENDDEF
-# 
 # +3V3
 # 
 DEF +3V3 #PWR 0 0 Y Y 1 F P
@@ -55,8 +37,8 @@ ENDDEF
 DEF 0015912120 J 0 40 Y Y 1 F N
 F0 "J" 0 300 60 H V C CNN
 F1 "0015912120" 0 400 60 H V C CNN
-F2 "arty-a7-expansion-footprints:PinHeader_2x6_P2.54mm_Vertical_SMD" 200 200 60 H I L CNN
-F3 "https://www.molex.com/pdm_docs/sd/015912120_sd.pdf" 200 300 60 H I L CNN
+F2 "arty-a7-expansion-footprints:PinHeader_6x2_P2.54mm_Horizontal_Mirrored" 200 200 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
 F4 "0015912120" 200 500 60 H I L CNN "MPN"
 F5 "Molex" 200 1100 60 H I L CNN "Manufacturer"
 DRAW
@@ -244,6 +226,24 @@ F3 "" 0 0 50 H I C CNN
 F4 "AVX" 200 400 60 H I L CNN "Manufacturer"
 F5 "04025G103ZAT2A" 200 300 60 H I L CNN "MPN"
 F6 "10n" 0 -100 50 H V C CNN "Val"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 0 0 1 1 P
+X ~ 2 0 -150 110 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# C_22p_0402
+# 
+DEF C_22p_0402 C 0 0 Y Y 1 F N
+F0 "C" -55 135 60 H V L CNN
+F1 "C_22p_0402" 0 -150 60 H I C CNN
+F2 "arty-a7-expansion-footprints:0402-cap" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "YAGEO" 200 400 60 H I L CNN "Manufacturer"
+F5 "CC0402JRNPO9BN220" 200 300 60 H I L CNN "MPN"
+F6 "22p" 0 -100 50 H V C CNN "Val"
 DRAW
 P 2 1 1 20 -80 -30 80 -30 N
 P 2 1 1 20 -80 30 80 30 N
@@ -580,7 +580,7 @@ ENDDEF
 DEF antmicro_logo N 0 40 Y Y 1 F N
 F0 "N" 0 350 50 H V C CNN
 F1 "antmicro_logo" 0 -200 50 H V C CNN
-F2 "arty-a7-expansion-footprints:antmicro-logo" -100 250 50 H I C CNN
+F2 "arty-a7-expansion-footprints:antmicro-logo_scaled_30mm" -100 250 50 H I C CNN
 F3 "" 0 350 50 H I C CNN
 DRAW
 T 0 50 50 79 0 0 0 Logo Normal 0 C C
