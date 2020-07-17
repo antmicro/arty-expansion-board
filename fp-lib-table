@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name arty-a7-expansion-footprints)(type KiCad)(uri ${KIPRJMOD}/lib/arty-a7-expansion-footprints)(options "")(descr ""))
+  (lib (name arty-a7-expansion-footprints)(type Kicad)(uri ${KIPRJMOD}/lib/arty-a7-expansion-footprints)(options "")(descr ""))
 )
