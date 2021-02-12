@@ -2,7 +2,7 @@
 Antmicro Arty A7 expansion board
 ================================
 
-Copyright (c) 2020 `Antmicro <https://www.antmicro.com>`_
+Copyright (c) 2019-2021 `Antmicro <https://www.antmicro.com>`_
 
 .. figure:: img/expansion-board.png
 
