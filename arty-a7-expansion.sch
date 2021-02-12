@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "Arty A7 Expansion Board"
 Date ""
-Rev "2.0.1"
+Rev "2.1.0"
 Comp ""
 Comment1 "www.antmicro.com"
 Comment2 "Antmicro Ltd."
