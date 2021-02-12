@@ -4721,4 +4721,61 @@ F 5 "Murata" H 2400 8300 60  0001 L CNN "Manufacturer"
 $EndComp
 Connection ~ 2400 7200
 Connection ~ 2400 5600
+$Comp
+L arty-a7-expansion:R_100R_0402 R44
+U 1 1 5FDBB3B2
+P 6900 2200
+F 0 "R44" H 6900 2100 60  0000 C CNN
+F 1 "R_100R_0402" H 6900 2050 60  0001 C CNN
+F 2 "arty-a7-expansion-footprints:0402-res" H 7100 2400 60  0001 L CNN
+F 3 "" H 6900 2200 50  0001 C CNN
+F 4 "BOURNS" H 7100 2600 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1000GLF" H 7100 2500 60  0001 L CNN "MPN"
+F 6 "100R" H 6900 2300 50  0000 C CNN "Val"
+	1    6900 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroLEDIndicationDiscrete:LG_L29K-G2J1-24-Z D7
+U 1 1 5FCD8625
+P 6900 1900
+F 0 "D7" V 6797 2078 60  0000 L CNN
+F 1 "LG_L29K-G2J1-24-Z" V 6903 2078 60  0000 L CNN
+F 2 "antmicro-footprints:LED_0603" H 7100 2100 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 7100 2200 60  0001 L CNN
+F 4 "LG L29K-G2J1-24-Z" H 7100 2400 60  0001 L CNN "MPN"
+F 5 "OSRAM Opto Semiconductors Inc." H 7100 3000 60  0001 L CNN "Manufacturer"
+	1    6900 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L arty-a7-expansion:GND #PWR0141
+U 1 1 5FD19577
+P 6900 2400
+F 0 "#PWR0141" H 6900 2150 50  0001 C CNN
+F 1 "GND" H 6905 2227 50  0000 C CNN
+F 2 "" H 6900 2400 50  0001 C CNN
+F 3 "" H 6900 2400 50  0001 C CNN
+	1    6900 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L arty-a7-expansion:+3V3 #PWR0142
+U 1 1 601B5E93
+P 6900 1650
+F 0 "#PWR0142" H 6900 1500 50  0001 C CNN
+F 1 "+3V3" H 6915 1823 50  0000 C CNN
+F 2 "" H 6900 1650 50  0001 C CNN
+F 3 "" H 6900 1650 50  0001 C CNN
+	1    6900 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 1650 6900 1700
+Wire Wire Line
+	6900 2000 6900 2050
+Wire Wire Line
+	6900 2350 6900 2400
+Text Notes 6350 1400 0    118  ~ 24
+PWR indicator
 $EndSCHEMATC
