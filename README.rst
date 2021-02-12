@@ -32,3 +32,7 @@ Key features
 * audio interface
 * GPIO expander with LED indicators
 
+License
+=======
+
+`Apache-2.0 <LICENSE>`_
