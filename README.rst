@@ -28,8 +28,9 @@ Key features
 
 * HDMI connector
 * microSD card connector
-* USB 2.0 host controller implemented with `MAX3421EEHJ <https://datasheets.maximintegrated.com/en/ds/MAX3421E.pdf>`_
-* audio interface
+* USB 2.0 host controller implemented with Maxim `MAX3421EEHJ <https://datasheets.maximintegrated.com/en/ds/MAX3421E.pdf>`_
+* Analog audio output implemented with Cirrus Logic `CS4344 <https://www.cirrus.com/products/cs4344-45-48/>`_ D/A converter
+* Analog (line) audio input implemented with Cirrus Logic `CS5343 <https://www.cirrus.com/products/cs5343-44/>`_ A/D converter
 * GPIO expander with LED indicators
 
 License
