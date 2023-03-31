@@ -6,7 +6,7 @@ Copyright (c) 2019-2023 [Antmicro](https://www.antmicro.com)
 
 ![Arty A7 Expansion Board](/img/arty-expansion-board.png)
 
-### Overview
+## Overview
 
 This project contains open hardware design files for expansion board compatible with Digilent [Arty A7 development platform](https://store.digilentinc.com/arty-a7-artix-7-fpga-development-board-for-makers-and-hobbyists/).
 The expansion board utilizes a set of PMOD connectors on Arty board to provide additional IO interfaces.
